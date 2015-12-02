@@ -1,7 +1,11 @@
+@font-face {
+  font-family: 'Franklin Gothic Demi Cond'; /* Имя шрифта */
+  src: url(../fonts/FRADMCN.TTF); /* Путь к файлу со шрифтом */
+}
 * {margin: 0; padding: 0; outline: 0;}
 body {
 	background-color: #F9F9F9;
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Franklin Gothic Demi Cond', sans-serif;
 }
 h1, h2 {
 	font-weight: 300;
@@ -15,6 +19,10 @@ h2 {
 }
 h3 {
 	font-size: 2em;
+}
+a {
+	text-decoration: none;
+	color:#000000;
 }
 .blue {
 	font-size: 2.5em;
@@ -57,7 +65,7 @@ nav a {
 	font-size: 25px;
     font-weight: bold;
 }
-.topmenu li {
+.topmenu a {
     font-size: 1.1em;
     font-weight: bold;
     width: 30%;
@@ -66,18 +74,31 @@ nav a {
 #power {
 	background: url(../img/back.jpg) no-repeat;
 	background-size: cover;
+	text-align: center;
 }  
+#power h2 {
+    margin-top: 100px;
+}
+#power i {
+	color:#00B0F0;
+	border: 2px solid;
+    border-radius: 100%;
+    padding: 50px 50px 50px 70px;
+    border: 2px solid;
+    border-radius: 100%;
+    padding: 50px 50px 50px 70px;
+}
 header h1 {
 	font-size: 70px;
     font-weight: bold;
-    padding: 100px 0;
+    padding: 80px 0;
     width: 55%;
     float: right;
 }
 .row {
 	margin-right: 5%;
 	margin-left: 5%;
-	padding: 50px 0;
+	padding: 30px 0;
 }
 footer,
 .row:before,
@@ -124,7 +145,7 @@ footer,
 	width:50%;
 }
 img {
-	max-height: 500px;
+	max-height: 450px;
 }
 footer {
 	background-color: #A6A6A6;
@@ -158,6 +179,7 @@ footer {
 .comtext span:nth-child(3) {
 	color: #00B0F0;
 }
+
 /* Magnific Popup CSS */
 .mfp-bg {
   top: 0;

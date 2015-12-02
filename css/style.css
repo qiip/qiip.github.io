@@ -75,10 +75,13 @@ nav a {
   color: #2196F3;
 }
 #power {
-	background: url(../img/back.jpg) no-repeat;
-	background-size: cover;
-	text-align: center;
+  background: url(../img/back.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
 }  
+#power h2 {
+    margin-top: 100px;
+}
 #power h2 {
     margin-top: 100px;
 }

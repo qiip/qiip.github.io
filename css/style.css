@@ -26,18 +26,18 @@ a {
 }
 .blue {
 	font-size: 2.5em;
-    color: #00B0F0;
+  color: #2196F3;
 }
 .orang {
 	font-size: 2.5em;
-    color: #F79646;
+  color: #EF6C00;
 }
 .gray {
 	font-size: 2.5em;
-    color: #A6A6A6;
+  color: #607D8B;
 }
 nav {
-	background-color:#ddd; 
+	background-color:#B0BEC5; 
 }
 nav ul {
 	display: flex;
@@ -48,14 +48,14 @@ nav ul {
 nav a {
 	width: 25%;
 	padding: 30px;
-	background-color: gray;
+	background-color: #607D8B;
 	margin-right: 1px;
 	font-size: 2em;
-    font-weight: bold;
-    color:#fff;
+  font-weight: bold;
+  color:#fff;
 }
 nav a:hover {
-	background-color:#00B0F0;
+	background-color:#2196F3;
 }
 nav a {
 	text-decoration: none;
@@ -71,6 +71,9 @@ nav a {
     width: 30%;
     text-align: center;
 }
+.topmenu a:hover {
+  color: #2196F3;
+}
 #power {
 	background: url(../img/back.jpg) no-repeat;
 	background-size: cover;
@@ -80,7 +83,7 @@ nav a {
     margin-top: 100px;
 }
 #power i {
-	color:#00B0F0;
+	color:#2196F3;
 	border: 2px solid;
     border-radius: 100%;
     padding: 50px 50px 50px 70px;
@@ -92,7 +95,7 @@ header h1 {
 	font-size: 70px;
     font-weight: bold;
     padding: 80px 0;
-    width: 55%;
+    width: 50%;
     float: right;
 }
 .row {
@@ -148,7 +151,7 @@ img {
 	max-height: 450px;
 }
 footer {
-	background-color: #A6A6A6;
+	background-color: #607D8B;
     height: 100px;
     width: 100%;
     text-align: center;
@@ -165,13 +168,16 @@ footer {
 }
 .nblock {
 	padding: 100px;
-    font-size: 45px;
-    font-weight: bold;
-    text-align: center;
+  margin: 0 10px;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .comtext {
 	text-align: left;
-	padding: 50px 0 0 110px;
+  padding: 50px 0 50px 110px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .comtext span {
 	color: #F79646;

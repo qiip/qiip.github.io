@@ -1,6 +1,7 @@
-// Fixed main menu
+/*	Fixed main menu
+	================================================== */ 
 
-$('.menu').addClass('original').clone().insertAfter('.menu').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
+	$('.menu').addClass('original').clone().insertAfter('.menu').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
 	scrollIntervalID = setInterval(stickIt, 10);
 
 	function stickIt() {
@@ -24,21 +25,36 @@ $('.menu').addClass('original').clone().insertAfter('.menu').addClass('cloned').
 	    $('.original').css('visibility','visible');
 	  }
 	}
+/*	Pop-up
+	================================================== */ 
 
+	$('.magnific').magnificPopup({
+	  type:'image',
+	  removalDelay: 300,
+	  mainClass: 'mfp-fade'
+	});
 
-// Pop-up
+	$('.magnific-youtube, .magnific-vimeo').magnificPopup({
+	  disableOn: 700,
+	  type: 'iframe',
+	  mainClass: 'mfp-fade',
+	  removalDelay: 300,
+	  preloader: false,
+	  fixedContentPos: false
+	});
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000);
+		        return false;
+		      }
+		    }
+		  });
+		});
 
-$('.magnific').magnificPopup({
-  type:'image',
-  removalDelay: 300,
-  mainClass: 'mfp-fade'
-});
-
-$('.magnific-youtube, .magnific-vimeo').magnificPopup({
-  disableOn: 700,
-  type: 'iframe',
-  mainClass: 'mfp-fade',
-  removalDelay: 300,
-  preloader: false,
-  fixedContentPos: false
-});

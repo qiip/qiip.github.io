@@ -176,7 +176,7 @@ header h1 {
 #hrad {
   background: url('../img/radiator.png') no-repeat;
   background-position: top left;
-  background-size: 28%;
+  background-size: contain;
   margin-top: 40px;
 }
 footer,

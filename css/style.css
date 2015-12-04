@@ -146,6 +146,7 @@ header h1 {
 #competitive {
   background: url('../img/rad-3.png') no-repeat;
   background-position: top right;
+  background-size: contain;
 }
 #hrad {
   background: url('../img/radiator.png') no-repeat;

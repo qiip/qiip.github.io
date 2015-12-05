@@ -110,12 +110,12 @@ nav a:hover {
   border: 9px solid;
 }
 header h1 {
-  font-size: 59px;
   font-weight: bold;
-  padding: 80px 0;
+  padding: 75px 0px;
   width: 50%;
   float: right;
   color: #A6A6A6;
+  font-size: 70px;
 }
 .row {
 	margin-right: 5%;
@@ -174,9 +174,7 @@ header h1 {
   background-size: 28%;
 }
 #hrad {
-  background: url('../img/radiator.png') no-repeat;
-  background-position: top left;
-  background-size: contain;
+  background: transparent url("../img/radiator.png") no-repeat scroll left top / 45% auto;
   margin-top: 40px;
 }
 footer,

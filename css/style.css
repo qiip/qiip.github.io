@@ -6,8 +6,8 @@
 body {
 	background-color: #F9F9F9;
 	font-family: 'Franklin Gothic Demi Cond', sans-serif;
-	color: #000;
-	text-shadow: 1px 1px 2px #4c4c4c;
+  color: #000;
+  text-shadow: 1px 1px 2px #4c4c4c;
 }
 h1, h2 {
 	font-weight: 300;
@@ -27,7 +27,7 @@ a {
 	color:#000;
 }
 .blue {
-	font-size: 3.8em;
+	font-size: 4em;
   color: #00B0F0;
 }
 h1 .blue {
@@ -35,11 +35,11 @@ h1 .blue {
   color: #00B0F0;
 }
 .orang {
-	font-size: 3.8em;
+	font-size: 4em;
   color: #F79646;
 }
 .gray {
-	font-size: 3.8em;
+	font-size: 4em;
   color: #7F7F7F;
 }
 nav {
@@ -57,7 +57,7 @@ nav a {
   padding: 35px;
   background-color: #A6A6A6;
   margin-right: 1px;
-  font-size: 1.5em;
+  font-size: 33px;
   font-weight: bold;
   color: #fff;
   text-decoration: none;

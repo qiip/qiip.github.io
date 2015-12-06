@@ -75,7 +75,7 @@ nav a:hover {
 .topmenu {
   float:right;
   font-weight: bold;
-  margin-top: 35px;
+  margin-top: 45px;
 }
 .topmenu a {
     font-size: 25px;
@@ -201,7 +201,6 @@ footer,
 .row ul {
   display: flex;
   list-style-type: none;
-  padding-top: 50px;
 }
 .advant {
   display: block;

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Franklin Gothic Demi Cond'; /* Имя шрифта */
-  src: url(../fonts/FRADMCN.TTF); /* Путь к файлу со шрифтом */
+  src: url(../fonts/Franklin Gothic Demi Cond Regular.ttf); /* Путь к файлу со шрифтом */
 }
 * {margin: 0; padding: 0; outline: 0;}
 body {
@@ -75,10 +75,10 @@ nav a:hover {
 .topmenu {
   float:right;
   margin-top: 45px;
+  width: 700px;
 }
 .topmenu a {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 15pt;
     width: 30%;
     text-align: center;
 }
@@ -92,9 +92,9 @@ nav a:hover {
 }  
 #power h2 {
   font-size: 70px;
-  float: left;
+  float: right;
   text-align: right;
-  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 220px;
   width: 40%;
 }
@@ -113,7 +113,6 @@ nav a:hover {
   top: 113%;
 }
 header h1 {
-  font-weight: bold;
   padding: 75px 0px;
   width: 50%;
   float: right;

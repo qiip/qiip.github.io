@@ -6,7 +6,8 @@
 body {
 	background-color: #F9F9F9;
 	font-family: 'Franklin Gothic Demi Cond', sans-serif;
-  color: #000;
+	color: #000;
+	text-shadow: 1px 1px 2px #4c4c4c;
 }
 h1, h2 {
 	font-weight: 300;

@@ -7,7 +7,6 @@ body {
 	background-color: #F9F9F9;
 	font-family: 'Franklin Gothic Demi Cond', sans-serif;
   color: #000;
-  text-shadow: 1px 1px 2px #4c4c4c;
 }
 h1, h2 {
 	font-weight: 300;
@@ -236,11 +235,11 @@ footer {
 	padding: 15px;
   width: 15px;
   height: 15px;
-  border: 1px solid #fff;
+  background: #B8BCC0 none repeat scroll 0% 0%;
+  color: #323237;
   border-radius: 50px;
   margin-top: 25px;
   margin-right: 5px;
-  color: #fff;
 }
 .nblock {
 	padding: 230px 20px;
@@ -259,7 +258,7 @@ footer {
 .comtext span {
 	color: #F79646;
 }
-.comtext span:nth-child(3) {
+.comtext span:nth-child(2) {
 	color: #00B0F0;
 }
 

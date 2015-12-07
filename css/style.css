@@ -124,7 +124,7 @@ nav a:hover {
   top: 113%;
 }
 header h1 {
-  padding: 45px 0px 90px;
+  padding: 45px 0px 110px;
   width: 50%;
   float: right;
   color: #7F7F7F;
@@ -191,7 +191,7 @@ header h1 {
 #hrad {
   background: transparent url("../img/radiator.png") no-repeat scroll left top / 45% auto;
   padding: 40px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 footer,
 .row:before,

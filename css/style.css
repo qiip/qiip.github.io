@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic);
 @font-face {
   font-family: 'Franklin Gothic Demi Cond'; /* Имя шрифта */
   src: url(../fonts/Franklin Gothic Demi Cond Regular.ttf); /* Путь к файлу со шрифтом */
@@ -6,10 +7,9 @@
   font-family: 'FranklinGothBookCTT'; /* Имя шрифта */
   src: url(../fonts/FranklinGothBookCTT.ttf); /* Путь к файлу со шрифтом */
 }
-
 * {margin: 0; padding: 0; outline: 0;}
 body {
-	font-family: 'Franklin Gothic Demi Cond', sans-serif;
+	font-family:'Open Sans Condensed', sans-serif;
     color: #000;
   background: #F9F9F9; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, #F9F9F9, #fff); /* For Safari 5.1 to 6.0 */
@@ -36,20 +36,20 @@ a {
 	color:#000;
 }
 .blue {
-	font-size: 4em;
+  font-size: 4em;
   color: #00B0F0;
 }
 h1 .blue {
-  font-size: 2.4em;
+  font-size: 2.6em;
   color: #00B0F0;
 }
 .orang {
-	font-size: 4em;
+  font-size: 4em;
   color: #F79646;
 }
 .gray {
-	font-size: 4em;
-  color: #7F7F7F;
+ font-size: 4em;
+ color: #7F7F7F;
 }
 nav {
   background: #F9F9F9;
@@ -88,7 +88,7 @@ nav a:hover {
   width: 700px;
 }
 .topmenu a {
-    font-size: 15pt;
+    font-size: 25px;
     width: 33.333333%;
     text-align: center;
 }
@@ -101,12 +101,12 @@ nav a:hover {
   text-align: center;
 }  
 #power h2 {
-  font-size: 58px;
+  font-size: 80px;
   font-weight: bold;
   float: right;
   text-align: right;
   margin-right: 50px;
-  margin-top: 220px;
+  margin-top: 180px;
   width: 40%;
 }
 #power i {
@@ -121,16 +121,16 @@ nav a:hover {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  top: 113%;
+  top: 105%;
 }
 header h1 {
-  padding: 45px 0px 105px;
   width: 50%;
   float: right;
+  padding: 35px 0px 70px;
   color: #7F7F7F;
-  font-size: 55px;
-  font-weight: bold;s
-  line-height: 1;
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 1.1;
 }
 .row {
 	margin-right: 5%;
@@ -273,8 +273,9 @@ footer {
  text-align: left;
  padding: 200px 0px 0 20px;
  font-size: 29px;
- max-width: 930px;
+ font-weight: bold;
  color: #7F7F7F;
+ max-width: 930px;
 }
 .comtext span {
 	color: #F79646;

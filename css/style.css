@@ -81,11 +81,11 @@ nav a:hover {
   float:right;
   margin-right: 30px;
   margin-top: 2%;
-  width: 690px;
+  width: 670px;
 }
 .topmenu a {
     font-size: 25px;
-    width: 31.5%;
+	width: 33.333333%;
     text-align: center;
 }
 .topmenu a:hover {
@@ -108,7 +108,7 @@ nav a:hover {
 #power i {
   color: #FFF;
   border-radius: 50%;
-  padding: 70px 110px 70px 140px;
+  padding: 70px 110px 70px 135px;
   border: 9px solid;
   font-size: 10em;
 }
@@ -123,9 +123,9 @@ header h1 {
   float: right;
   padding-top: 5px;
   color: #7F7F7F;
-  font-size: 73px;
+  font-size: 75px;
   font-weight: bold;
-  line-height: 1.1;
+  line-height: 1;
 }
 .row {
 	margin-right: 5%;
@@ -176,18 +176,18 @@ header h1 {
 #safe {
   background: url('../img/rad-2.png') no-repeat;
   background-position: top left;
-  background-size: 24%;
+  background-size: 22%;
 }
 #competitive {
   background: url('../img/rad-3.png') no-repeat;
   background-position: top right;
-  background-size: 28%;
+  background-size: 25%;
 }
 #hrad {
   background: url("../img/radiator.png") no-repeat;
   background-position: top left;
   background-size: 40%;
-  padding: 35px;
+  padding: 55px;
 }
 footer,
 .row:before,
@@ -215,7 +215,7 @@ footer,
 }
 .advant {
   display: block;
-  min-height: 660px;
+  min-height: 555px;
   margin: 0px;
   border-top: 1px solid #eee;
 }
@@ -233,27 +233,19 @@ footer,
 .scontainer {
   float: right;
 }
-img {
-  max-height: 600px;
-}
 footer {
   background-color: #323237;
   height: 100px;
   width: 100%;
   text-align: center;
 }
-.socialb i {
-  padding: 15px;
-  width: 15px;
-  height: 15px;
-  background: #B8BCC0 none repeat scroll 0% 0%;
-  color: #323237;
-  border-radius: 50px;
-  margin-top: 25px;
+.socialb a {
+  display: inline-block;
   margin-right: 5px;
+  margin-top: 15px;
 }
 .nblock {
-  padding: 150px 0px;
+  padding: 130px 0px;
   font-size: 35px;
   text-align: center;
 }
@@ -268,12 +260,12 @@ footer {
 .pblock {
   display: inline-block;
   margin-left: 100px;
-  font-size: 24px;
+  font-size: 20px;
 }
 .comtext {
  text-align: left;
- padding: 150px 0px 0 20px;
- font-size: 36px;
+ padding: 80px 0px 0 20px;
+ font-size: 39px;
  font-weight: bold;
  color: #7F7F7F;
  max-width: 930px;
@@ -286,11 +278,11 @@ footer {
 }
 .button {
   display: inline-block;
-  font-size: 45px;
+  font-size: 40px;
   color: #fff;
   padding: 25px;
-  margin-top: 25px;
-  margin-left: 150px;
+  margin-top: 55px;
+  margin-left: 250px;
   text-transform: uppercase;
   background: #00B0F0 none repeat scroll 0% 0%;
   border-radius: 6px;

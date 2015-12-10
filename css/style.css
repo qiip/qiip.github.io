@@ -81,11 +81,11 @@ nav a:hover {
   float:right;
   margin-right: 30px;
   margin-top: 2%;
-  width: 650px;
+  width: 690px;
 }
 .topmenu a {
     font-size: 25px;
-    width: 33.333333%;
+    width: 31.5%;
     text-align: center;
 }
 .topmenu a:hover {
@@ -115,15 +115,15 @@ nav a:hover {
 #power a {
 	position: relative;
     float: left;
-    left: 38%;
+    left: 37%;
     margin-top: 150px;
 }
 header h1 {
   width: 53%;
   float: right;
-  padding: 15px 0px 40px;
+  padding-top: 5px;
   color: #7F7F7F;
-  font-size: 75px;
+  font-size: 73px;
   font-weight: bold;
   line-height: 1.1;
 }
@@ -184,9 +184,10 @@ header h1 {
   background-size: 28%;
 }
 #hrad {
-  background: transparent url("../img/radiator.png") no-repeat scroll left top / 45% auto;
-  padding: 50px;
-  margin-top: 50px;
+  background: url("../img/radiator.png") no-repeat;
+  background-position: top left;
+  background-size: 40%;
+  padding: 35px;
 }
 footer,
 .row:before,
@@ -287,7 +288,7 @@ footer {
   display: inline-block;
   font-size: 45px;
   color: #fff;
-  padding: 30px;
+  padding: 25px;
   margin-top: 25px;
   margin-left: 150px;
   text-transform: uppercase;

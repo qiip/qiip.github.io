@@ -1,15 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic);
 @font-face {
   font-family: 'Franklin Gothic Demi Cond'; /* Имя шрифта */
-  src: url(../fonts/Franklin Gothic Demi Cond Regular.ttf); /* Путь к файлу со шрифтом */
-}
-@font-face {
-  font-family: 'FranklinGothBookCTT'; /* Имя шрифта */
-  src: url(../fonts/FranklinGothBookCTT.ttf); /* Путь к файлу со шрифтом */
+  src: url(../fonts/FRADMCN.TTF); /* Путь к файлу со шрифтом */
 }
 * {margin: 0; padding: 0; outline: 0;}
 body {
-	font-family:'Open Sans Condensed', sans-serif;
+	font-family:'Franklin Gothic Demi Cond', sans-serif;
     color: #000;
   background: #F9F9F9; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, #F9F9F9, #fff); /* For Safari 5.1 to 6.0 */
@@ -40,7 +35,7 @@ a {
   color: #00B0F0;
 }
 h1 .blue {
-  font-size: 2.6em;
+  font-size: 2.5em;
   color: #00B0F0;
 }
 .orang {
@@ -84,8 +79,9 @@ nav a:hover {
 }
 .topmenu {
   float:right;
-  margin-top: 3%;
-  width: 700px;
+  margin-right: 30px;
+  margin-top: 2%;
+  width: 650px;
 }
 .topmenu a {
     font-size: 25px;
@@ -106,12 +102,13 @@ nav a:hover {
   float: right;
   text-align: right;
   margin-top: 180px;
-  width: 40%;
+  width: 35%;
+  line-height: 1;
 }
 #power i {
   color: #FFF;
-  border-radius: 100%;
-  padding: 70px 70px 70px 90px;
+  border-radius: 50%;
+  padding: 70px 110px 70px 140px;
   border: 9px solid;
   font-size: 10em;
 }
@@ -122,9 +119,9 @@ nav a:hover {
     margin-top: 150px;
 }
 header h1 {
-  width: 50%;
+  width: 53%;
   float: right;
-  padding: 35px 0px 10px;
+  padding: 15px 0px 40px;
   color: #7F7F7F;
   font-size: 75px;
   font-weight: bold;
@@ -188,7 +185,7 @@ header h1 {
 }
 #hrad {
   background: transparent url("../img/radiator.png") no-repeat scroll left top / 45% auto;
-  padding: 40px;
+  padding: 50px;
   margin-top: 50px;
 }
 footer,
@@ -267,10 +264,15 @@ footer {
   font-size: 160px;
   font-weight: bold;
 }
+.pblock {
+  display: inline-block;
+  margin-left: 100px;
+  font-size: 24px;
+}
 .comtext {
  text-align: left;
- padding: 200px 0px 0 20px;
- font-size: 29px;
+ padding: 150px 0px 0 20px;
+ font-size: 36px;
  font-weight: bold;
  color: #7F7F7F;
  max-width: 930px;
@@ -280,6 +282,19 @@ footer {
 }
 .comtext span:nth-child(1) {
 	color: #00B0F0;
+}
+.button {
+  display: inline-block;
+  font-size: 45px;
+  color: #fff;
+  padding: 30px;
+  margin-top: 25px;
+  margin-left: 150px;
+  text-transform: uppercase;
+  background: #00B0F0 none repeat scroll 0% 0%;
+  border-radius: 6px;
+  border: solid 3px #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);   
 }
 
 /* Magnific Popup CSS */

@@ -65,7 +65,7 @@ function onScroll(event){
     $('.menu a').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
-        if (refElement.position().top - $('.menu.cloned').height()<= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+        if (refElement.position().top - $('.menu.cloned').height() <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('.menu ul a').removeClass("active");
             currLink.addClass("active");
         }
@@ -74,3 +74,4 @@ function onScroll(event){
         }
     });
 }
+

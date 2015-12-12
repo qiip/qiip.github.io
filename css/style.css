@@ -2,6 +2,10 @@
   font-family: 'Franklin Gothic Demi Cond'; /* Имя шрифта */
   src: url(../fonts/FRADMCN.TTF); /* Путь к файлу со шрифтом */
 }
+@font-face {
+  font-family: 'Franklin Gothic Demi Cond Regular'; /* Имя шрифта */
+  src: url(../fonts/Franklin Gothic Demi Cond Regular.ttf); /* Путь к файлу со шрифтом */
+}
 * {margin: 0; padding: 0; outline: 0;}
 body {
 	font-family:'Franklin Gothic Demi Cond', sans-serif;
@@ -51,11 +55,6 @@ nav {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
-nav ul {
-	display: flex;
-	list-style-type: none;
-	text-align:center;
-}
 nav a {
   width: 25%;
   padding: 24px;
@@ -70,8 +69,14 @@ nav a {
 .active {
   background-color: #00B0F0;
 }
-nav a:first-child {
-  border-left: 1px solid #f1f3f3; 
+header h1 {
+  width: 55%;
+  float: right;
+  padding-top: 5px;
+  color: #7F7F7F;
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 1;
 }
 nav a:hover {
     background-color: #00B0F0;
@@ -118,15 +123,6 @@ nav a:hover {
     left: 37.8%;
     margin-top: 150px;
 }
-header h1 {
-  width: 55%;
-  float: right;
-  padding-top: 5px;
-  color: #7F7F7F;
-  font-size: 75px;
-  font-weight: bold;
-  line-height: 1;
-}
 .row {
 	margin-right: 5%;
 	margin-left: 5%;
@@ -137,37 +133,7 @@ header h1 {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
-    .container {
-      width: 750px;
-  }
-}
-@media (min-width: 992px) {
-    .container {
-      width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-    .container {
-      width: 1279px;
-  }
-}
-.scontainer {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-    .scontainer {
-      width: 750px;
-  }
-}
-@media (min-width: 992px) {
-    .scontainer {
-      width: 970px;
-  }
-}
+
 #quality {
   background: url('../img/rad-1.png') no-repeat;
   background-position: top right;
@@ -219,25 +185,17 @@ footer,
   margin: 0px;
   border-top: 1px solid #eee;
 }
-#quality .container {
-  float: left;
-}
 .container div {
   width: 40%;
   float: left;
-}
-#safe .scontainer div {
-  width: 33.3333%;
-  float: left;
-}
-.scontainer {
-  float: right;
 }
 footer {
   background-color: #323237;
   height: 100px;
   width: 100%;
   text-align: center;
+  color:#fff;
+  font-family: 'Franklin Gothic Demi Cond Regular', sans-serif;
 }
 .socialb a {
   display: inline-block;
@@ -249,7 +207,7 @@ footer {
   font-size: 35px;
   text-align: center;
 }
-#safe .nblock {
+.scontainer .nblock {
   font-size: 27px;
 }
 .nblock span{
@@ -288,6 +246,237 @@ footer {
   border-radius: 6px;
   border: solid 3px #fff;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);   
+}
+@media screen and (max-width: 320px) {
+	#power a {
+	    left: 15.5%;
+	    margin-top: 0px;
+	}
+	#power i {
+	    padding: 20px 70px 20px 80px;
+	}
+	#power h2 {
+	    font-size: 50px;
+	}
+	#safe .scontainer div {
+	    width: 24%;
+	}
+}
+@media screen and (max-width: 690px) {
+	.nav {
+		position: relative;
+		min-height: 50px;
+		z-index: 2;
+	}	
+	.nav ul {
+		width: 100%;
+		padding: 5px 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: url("../img/icon-menu.svg") no-repeat scroll 5% 50%;
+	}
+	.nav li {
+		display: none; /* скрыть все <li> пункты */
+		margin: 0;
+	}
+	.nav a {
+		display: block;
+		padding: 5px 5px 5px 32px;
+		text-align: left;
+		width: 100%;
+	}
+	.nav a {
+		background: none;
+		color: #fff;
+	}
+	/* при наведении на пункты меню */
+	.nav ul:hover {
+		background: #A6A6A6;
+	}
+	.nav ul:hover li {
+		display: block;
+		margin: 0 0 5px;
+	}
+}
+@media screen and (max-width: 750px) {
+	.topmenu {
+	    width: 100%;
+	    margin-right: 0px;
+	}
+	.topmenu a {
+		font-size: 18px;
+	}
+	header h1 {
+	    width: auto;
+	    margin-top: -35px;
+	    font-size: 20px;
+	}
+	#power a {
+	    left: 7.5%;
+	    margin-top: 0px;
+	}
+	#power h2 {
+	    font-size: 70px;
+	    float: none;
+	    margin-top: 50px;
+	}
+	.nblock span {
+	    font-size: 60px;
+	}
+	.nblock {
+	    padding: 50px 0px;
+	    font-size: 18px;
+	}
+	.scontainer div:first-child {
+	    margin-left: 70px;
+	}
+	.scontainer .nblock {
+	    font-size: 14px;
+	}
+	#safe .scontainer div {
+	    width: 27%;
+	}
+	.comtext {
+	    padding: 20px 0px 0px 20px;
+	    font-size: 15px;
+	}
+	.button {
+	    font-size: 30px;
+	    margin-top: 15px;
+	    margin-left: 20px;
+	}
+	.advant {
+	    min-height: 100px;
+	}
+}
+@media (min-width: 768px) {
+  .container {
+    width: auto;
+  }
+  .scontainer {
+    width: auto;
+  }
+  header h1 { 
+  	font-size: 50px;
+    margin-top: -30px;
+    padding-top: 0;  
+  }
+  .topmenu {
+    width: 500px;
+	margin-top: 3%;
+	margin-right: 10px;
+  }
+  .topmenu a{
+    font-size: 20px;  
+  }
+  #power h2 {
+  	font-size: 56px;
+  }
+  #power a {
+    left: 28%;
+  }
+  .scontainer div:first-child{
+    margin-left: 200px;
+  }  
+  #safe .scontainer div {
+    width: 25%;
+  }
+  .scontainer .nblock{
+    font-size: 22px;
+  }
+  .scontainer span {
+    font-size: 135px;
+  }
+  .comtext {
+  	font-size: 25px;
+  }
+	nav ul {
+		display: flex;
+		list-style-type: none;
+		text-align:center;
+	}
+}
+@media (min-width: 992px) {
+    .container {
+      width: 970px;
+  }
+    .scontainer {
+      width: 970px;
+  }
+  header h1 { 
+  	  font-size: 60px;
+  }
+  .topmenu {
+  	width: 550px;
+	margin-top: 3%;
+	margin-right: 0px;
+  }
+  #power h2 {
+  	font-size: 66px;
+  }
+  #power a {
+    left: 32.8%;
+  }
+  #quality .container {
+	  float: left;
+  }	
+  .scontainer {
+	  float: right;
+  }
+  .scontainer div:first-child{
+    width: 28%;
+    margin-left: 130px;
+  }  
+  .scontainer div {
+    width: 28%;
+  }
+  .comtext {
+  	font-size: 30px;
+  }
+  nav ul {
+		display: flex;
+		list-style-type: none;
+		text-align:center;
+  }
+}
+@media (min-width: 1200px) {
+    .container {
+      width: 1279px;
+	  }
+	  #quality .container {
+	  float: left;
+	}
+	.scontainer {
+	  float: right;
+	}
+	header h1 {
+	  font-size: 75px;
+	}
+}
+@media (min-width: 1600px) {
+   #quality .container {
+	  float: none;
+	}
+	.scontainer {
+	  float: none;
+	}
+	header h1 {
+	  font-size: 75px;
+	}
+}
+.scontainer {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.scontainer div:first-child{
+    width: 29%;
+}  
+.scontainer div {
+  width: 33.3333%;
+  float: left;
 }
 
 /* Magnific Popup CSS */

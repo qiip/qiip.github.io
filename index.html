@@ -15,6 +15,7 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-2.2.0.min.js"></script>
     <script src="https://code.jquery.com/jquery.min.js"></script>
@@ -41,7 +42,6 @@
           <i class="fa fa-phone fa-2x"></i>063-111-11-11
           <p>ЕЖЕДНЕВНО С 7.00 ДО 23.00</p>
         </div>
-
         <nav>
           <ul class="menu nav nav-justified">
             <li class="active"><a href="#">Home</a></li>
@@ -52,7 +52,7 @@
           </ul>
         </nav>
       </div>
-
+       
       <!-- Jumbotron -->
       <div class="jumbotron">
         <h1>Лазерная эпиляция</h1>
@@ -63,44 +63,44 @@
 
       <!-- Adventages -->
       <div class="row">
-        <div class="col-lg-2">
-          <img src="">
+        <div class="col-lg-2 adv">
+          <img src="https://lumenis.com.ua/landing/desire/images/skorost.png">
           <h4>СКОРОСТЬ</h4>
-          <p class="text-danger">сокращение времени процедуры за счет новой технологии HIT и широкой насадки</p>          
+          <p>сокращение времени процедуры за счет новой технологии HIT и широкой насадки</p>          
         </div>
-       <div class="col-lg-2">
-          <img src="">
+       <div class="col-lg-2 adv">
+          <img src="https://lumenis.com.ua/landing/desire/images/bezboleznenost.png">
           <h4>БЕЗБОЛЕЗНЕННОСТЬ</h4>
-          <p class="text-danger">вакумная технология гарантирует абсолютную безболезненность</p>          
+          <p>вакумная технология гарантирует абсолютную безболезненность</p>          
         </div>
-        <div class="col-lg-2">
-          <img src="">
+        <div class="col-lg-2 adv">
+          <img src="https://lumenis.com.ua/landing/desire/images/bezopasnost.png">
           <h4>БЕЗОПАСТНОСТЬ</h4>
-          <p class="text-danger">исключается вероятность ожога и раздражения</p>          
+          <p>исключается вероятность ожога и раздражения</p>          
         </div>
-        <div class="col-lg-2">
-          <img src="">
+        <div class="col-lg-2 adv">
+          <img src="https://lumenis.com.ua/landing/desire/images/universal.png">
           <h4>УНИВЕРСАЛЬНОСТЬ</h4>
-          <p class="text-danger">подходит для всех фототипов кожи</p>          
+          <p>подходит для всех фототипов кожи</p>          
         </div>
-        <div class="col-lg-2">
-          <img src="">
+        <div class="col-lg-2 adv">
+          <img src="https://lumenis.com.ua/landing/desire/images/vsesezonnost.png">
           <h4>ЭФФЕКТИВНОСТЬ</h4>
-          <p class="text-danger">сокращение курса процедур до 4-6 сеансов</p>          
+          <p>сокращение курса процедур до 4-6 сеансов</p>          
         </div>
-        <div class="col-lg-2">
-          <img src="">
+        <div class="col-lg-2 adv">
+          <img src="https://lumenis.com.ua/landing/desire/images/efectivn.png">
           <h4>ВСЕСЕЗОННОСТЬ</h4>
-          <p class="text-danger">возможность делать процедуру независимо от сезона</p>          
+          <p>возможность делать процедуру независимо от сезона</p>          
         </div>
       </div>
 
       <!-- Price -->
       <section class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-2">
           <a class="btn btn-lg btn-success" href="#" role="button">ЗАПИСАТЬСЯ<br /> на процедуру</a>          
         </div>
-        <div class="col-lg-9">
+        <div class="col-lg-10">
          <div id="myCarousel" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -153,30 +153,25 @@
       <!-- Specials -->
       <section class="row">
        <div class="col-lg-6 col-sm-12">
-                    <div class="contact-form bottom">
-                        <h2>Оформить заказ</h2>
+       <img src="https://lumenis.com.ua/landing/desire/images/aparat.png">
+       </div>
+       <div class="col-lg-6 col-sm-12">
+                    <div class="contact-form bottom text-center">
+                        <h2>ЗАКАЗАТЬ ЗВОНОК</h2>
+                        <p>Наш администратор свяжется с вами в течении 5-ти минут</p>
                         <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" required="required" placeholder="Имя">
-                            </div>
-                             <div class="form-group">
-                                <input type="text" name="subject" class="form-control" required="required" placeholder="Тип услуги">
-                            </div>
+                                <input type="text" name="name" class="form-control" required="required" placeholder="Введите имя">
+                            </div>                            
                             <div class="form-group">
-                                <input type="number" name="phone" class="form-control" required="required" placeholder="Телефон">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" name="email" class="form-control" required="required" placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Описание услуги"></textarea>
-                            </div>                        
+                                <input type="number" name="phone" class="form-control" required="required" placeholder="Введите номер телефона">
+                            </div>                                          
                             <div class="form-group">
                                 <input type="submit" name="submit" class="btn btn-submit" value="Отправить">
                             </div>
                         </form>
-                    </div>
-                </div>
+                  </div>
+        </div>
       </section>
 
       <!-- Site footer -->

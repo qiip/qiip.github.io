@@ -10,6 +10,9 @@
 	padding-top: 48px;
     padding-bottom: 48px;
 }
+.row h3 {
+    text-align: center;
+}
 .nav {
 	display:inline-block;
     background-color:#0B74C4;

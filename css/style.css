@@ -63,9 +63,47 @@ table tr:last-child {
 table tr:first-child {
     border: none;
 }  
+#price {
+background: url(home-bg.jpg) center 0 repeat fixed;
+}
+#about {
+background: url(about-bg.jpg) center 0 no-repeat ;
+}
 .price {
     background: url("../people.png") no-repeat;
     background-position: bottom center;
+}
+#price {
+  background: url(home.jpg) center 0 repeat fixed; min-height: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+}
+#price div {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  width: 100%;
+}
+#about {
+  background: url(about.jpg) center 0 repeat fixed; min-height: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#about div {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  width: 100%;
 }
 footer {
     text-align: center;

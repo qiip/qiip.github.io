@@ -1,28 +1,33 @@
+body {
+    font-size: 0.8vw;
+}
 .adv {
-	text-align: center;
+    text-align: center;
 }
 .adv h4 {
-	color: #0B74C4;
+    color: #0B74C4;
     font-size: 16px;
     font-weight: 600;
 }
 .row {
-	padding-top: 48px;
+    padding-top: 48px;
     padding-bottom: 48px;
 }
 .row h3 {
     text-align: center;
+    margin: 30px 0;
+    font-size: 2vw;
 }
 .nav {
-	display:inline-block;
+    display:inline-block;
     background-color:#0B74C4;
 }
 .nav a {
-	color:#fff;
+    color:#fff;
 } 
 .nav a:hover {
-	color:#0B74C4;
-}    
+    color:#0B74C4;
+}
 .carousel-inner>.item>a>img, .carousel-inner>.item>img {
     margin: 0 auto;
     left: 0;
@@ -35,6 +40,33 @@
 .carousel-inner>.item>table{
     margin-left: 2%;
 }
+table tr td:nth-child(2) {
+    text-align: right;
+} 
+.item th {
+    color:#0B74C4;
+    font-size: 0.84vw;
+    text-align: center;
+} 
+tr {
+    border-bottom: 1px solid;
+} 
+.item td {
+    padding-bottom: 5px;
+}
+.item th {
+    padding-bottom: 10px;
+}
+table tr:last-child {
+    border: none;
+} 
+table tr:first-child {
+    border: none;
+}  
+.price {
+    background: url("../people.png") no-repeat;
+    background-position: bottom center;
+}
 footer {
-	text-align: center;
+    text-align: center;
 }

@@ -66,7 +66,7 @@ table tr:first-child {
 #price {
 background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg) center 0 no-repeat fixed;
 }
-#about {
+#form {
 background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg) center 0 no-repeat ;
 }
 .price {
@@ -80,7 +80,7 @@ background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images
   max-width: 1920px;
   position: relative;
 }
-#about {
+#form {
   background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg) center 0 repeat fixed; 
   margin: 0 auto;
   width: 100%;

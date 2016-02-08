@@ -75,8 +75,8 @@ table tr:first-child {
   font-size: 1vw;
   color: #286090;
 }
-.attention {
-  color: #e67e22;
+.attention span {
+  color: #e74c3c;
 }
 table a {
   margin-top:10px;

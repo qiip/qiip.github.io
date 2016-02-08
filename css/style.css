@@ -64,41 +64,30 @@ table tr:first-child {
     border: none;
 }  
 #price {
-background: url("http://www.spatrouve.com/wp-content/uploads/2013/07/laser-hair-removal1.jpg") center 0 repeat fixed;
+background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg) center 0 no-repeat fixed;
 }
 #about {
-background: url("http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg") center 0 no-repeat ;
+background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg) center 0 no-repeat ;
 }
-
+.price {
+    background: url("http://www.spatrouve.com/wp-content/uploads/2013/07/laser-hair-removal1.jpg") no-repeat;
+    background-position: bottom center;
+}
 #price {
-  background: url("http://www.spatrouve.com/wp-content/uploads/2013/07/laser-hair-removal1.jpg") center 0 repeat fixed;
+  background: url(http://www.spatrouve.com/wp-content/uploads/2013/07/laser-hair-removal1.jpg) center 0 repeat fixed;
   margin: 0 auto;
   width: 100%;
   max-width: 1920px;
   position: relative;
 }
-#price {
-  height: 458px;
-  position: absolute;
-  text-align: center;
-  top: 300px;
-  width: 100%;
-}
 #about {
-  background: url("http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg") center 0 repeat fixed; 
+  background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg) center 0 repeat fixed; 
   margin: 0 auto;
   width: 100%;
   max-width: 1920px;
   position: relative;
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
-}
-#about {
-  height: 458px;
-  position: absolute;
-  text-align: center;
-  top: 300px;
-  width: 100%;
 }
 footer {
     text-align: center;

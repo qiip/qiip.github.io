@@ -65,7 +65,7 @@ table tr:first-child {
 }  
 
 #price {
-  background: url(http://www.spatrouve.com/wp-content/uploads/2013/07/laser-hair-removal1.jpg) center 0 no-repeat fixed;
+  background: url(http://www.spatrouve.com/wp-content/uploads/2013/07/laser-hair-removal1.jpg) center 0 no-repeat;
   background-size: cover;
   margin: 0 auto;
   width: 100%;
@@ -75,7 +75,7 @@ table tr:first-child {
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 #form {
-  background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg) center 0 no-repeat fixed; 
+  background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg) center 0 no-repeat; 
   background-size: cover;
   margin: 0 auto;
   width: 100%;

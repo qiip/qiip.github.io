@@ -79,6 +79,8 @@ background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images
   width: 100%;
   max-width: 1920px;
   position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 #form {
   background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg) center 0 repeat fixed; 
@@ -86,8 +88,6 @@ background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images
   width: 100%;
   max-width: 1920px;
   position: relative;
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 footer {
     text-align: center;

@@ -44,6 +44,10 @@ body {
 .carousel-inner>.item>table{
     margin-left: 2%;
 }
+#myCarousel {
+	background: rgba(255,255,255, 0.6);
+    border-radius: 5px;
+}  
 table tr td:nth-child(2) {
     text-align: right;
 } 
@@ -80,7 +84,9 @@ table tr:first-child {
   color: #286090;
 }
 .attention span {
-  color: #e74c3c;
+	color: #e74c3c;
+	font-weight: 900;
+	font-size: 1.5vw;
 }
 table a {
   margin-top:10px;
@@ -88,6 +94,9 @@ table a {
 .carousel-inner {
   font-size: 0.9vw;
   font-weight: 700;
+}
+.blue {
+	background-color: #DAF1FF;
 }
 #price {
   background: url(http://www.spatrouve.com/wp-content/uploads/2013/07/laser-hair-removal1.jpg) center 0 no-repeat fixed;

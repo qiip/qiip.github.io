@@ -4,6 +4,10 @@ body {
     font-size: 0.8vw;
     font-family: 'Open Sans', sans-serif;
 }
+.masthead h2 {
+	font-size: 2.5vw;
+    color: #337ab7;
+}
 .adv {
     text-align: center;
 }
@@ -120,17 +124,15 @@ table a {
   background-size: cover;
   margin: 0 auto;
   width: 100%;
-  max-width: 1920px;
   position: relative;
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
 #form {
   background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg) center 0 no-repeat fixed;  
   background-size: cover;
   margin: 0 auto;
   width: 100%;
-  max-width: 1920px;
   position: relative;
 }
 footer {

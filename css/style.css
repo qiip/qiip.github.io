@@ -101,6 +101,7 @@ table a {
 	background-color: #DAF1FF;
 }
 .redb {
+	color: #fff;
 	background: rgba(248,80,50,1);
 	background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(231,56,39,1) 0%, rgba(240,47,23,1) 38%, rgba(255,124,0,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,80,50,1)), color-stop(0%, rgba(231,56,39,1)), color-stop(38%, rgba(240,47,23,1)), color-stop(100%, rgba(255,124,0,1)));

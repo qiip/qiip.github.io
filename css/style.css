@@ -9,7 +9,7 @@ body {
     color: #337ab7;
 }
 .fsection {
-	background: url('img/legs.jpg') right no-repeat;
+	background: url(../img/legs.jpg) right no-repeat;
     background-position: top right;
     background-size: 45%;
     min-height: 350px;

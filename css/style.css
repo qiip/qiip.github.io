@@ -1,12 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=latin,cyrillic);
 
 body {
-    font-size: 0.75vw;
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif;
 }
 .masthead h2 {
-	font-size: 2.5vw;
+	font-size: 30px;
     color: #337ab7;
+}
+.fsection {
+	background: url('img/legs.jpg') right no-repeat;
+    background-position: top right;
+    background-size: 45%;
+    min-height: 350px;
 }
 .adv {
     text-align: center;
@@ -23,7 +29,7 @@ body {
 .row h3 {
     text-align: center;
     margin: 30px 0;
-    font-size: 2vw;
+    font-size: 24px;
 }
 .nav {
     display:inline-block;
@@ -65,7 +71,7 @@ table tr td:nth-child(2) {
 } 
 .item th {
     color:#0B74C4;
-    font-size: 1vw;
+    font-size: 18px;
     text-align: center;
 } 
 tr {
@@ -87,24 +93,24 @@ table tr:first-child {
   color: #0B74C4;
 }
 .phone a{
-  font-size: 1.5vw;
+  font-size: 30px;
   text-decoration: none;
 }
 .attention {
   text-align: right;
-  font-size: 1vw;
+  font-size: 18px;
   color: #286090;
 }
 .attention span {
 	color: #e74c3c;
 	font-weight: 900;
-	font-size: 1.5vw;
+	font-size: 20px;
 }
 table a {
   margin-top:10px;
 }
 .carousel-inner {
-  font-size: 0.9vw;
+  font-size: 15px;
   font-weight: 700;
 }
 .blue {

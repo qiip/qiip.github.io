@@ -61,6 +61,12 @@ body {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
     padding: 20px 0;
 } 
+#mySmCarousel {
+	background: rgba(255,255,255, 0.6);
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 20px 0;
+} 
 .wbox {
 	background: rgba(255,255,255, 0.6);
     border-radius: 2px;
@@ -119,6 +125,7 @@ table a {
 }
 .redb {
 	color: #fff;
+	font-weight: 700;
 	background: rgba(248,80,50,1);
 	background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(231,56,39,1) 0%, rgba(240,47,23,1) 38%, rgba(255,124,0,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,80,50,1)), color-stop(0%, rgba(231,56,39,1)), color-stop(38%, rgba(240,47,23,1)), color-stop(100%, rgba(255,124,0,1)));
@@ -140,6 +147,25 @@ table a {
   position: relative;
   -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.6);
   box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+#mprice {
+  background: url(../img/laser-hair-removal.jpg) center 0 no-repeat fixed;
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+@media (max-width: 460px) {
+	.price {
+		display:none !important;
+	}
+}
+@media (min-width: 460px) {
+	.mprice {
+		display:none !important;
+	}
 }
 #form {
   background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg) center 0 no-repeat fixed;  

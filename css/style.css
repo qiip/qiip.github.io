@@ -9,10 +9,9 @@ body {
     color: #337ab7;
 }
 .fsection {
-	background: url(/img/legs.jpg) right no-repeat;
+	background: url(../img/legs.jpg) right no-repeat;
     background-position: top right;
-    background-size: 45%;
-    min-height: 350px;
+	padding-bottom: 100px;
 }
 .adv {
     text-align: center;
@@ -168,7 +167,7 @@ table a {
 	}
 }
 #form {
-  background: url(http://aroma-beautyspa.com/wp-content/themes/twentytwelve/images/laser-banner.jpg) center 0 no-repeat fixed;  
+  background: url(../img/laser-banner.jpg) center 0 no-repeat fixed;  
   background-size: cover;
   margin: 0 auto;
   width: 100%;

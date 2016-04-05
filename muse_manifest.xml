@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1459702262894">
+<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1459864325155">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="88229460" ref="index"/>
+    <file name="index.css" crc="334120318" ref="index"/>
     <file name="iefonts_index.css" crc="154800436" ref="index"/>
   </folder>
   <folder name="assets">
@@ -161,17 +161,17 @@
   </folder>
   <folder name="tablet">
     <folder name="css">
-      <file name="index.css" crc="4225705185" ref="tablet>index"/>
+      <file name="index.css" crc="237058324" ref="tablet>index"/>
       <file name="iefonts_index.css" crc="327771721" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="393091946" seo="true" mt="1459700650945" redirect="true"/>
+    <file name="index.html" crc="4031513963" seo="true" mt="1459700650945" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="4134675711" ref="phone>index"/>
+      <file name="index.css" crc="4150298080" ref="phone>index"/>
       <file name="iefonts_index.css" crc="178044760" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="297992430" seo="true" mt="1459700650942" redirect="true"/>
+    <file name="index.html" crc="382140988" seo="true" mt="1459700650942" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3997179522" seo="true" mt="1459702218860" redirect="true"/>
+  <file name="index.html" crc="4073801990" seo="true" mt="1459864209343" redirect="true"/>
 </manifest>

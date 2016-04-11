@@ -1265,16 +1265,7 @@ $(document).ready(function() { // вся магия после загрузки 
                             </div>
                      </div>        
                             
-			         <script>
-						$('#dd-foto').click(function() {
-							var c = $('<div class="box-modal" />');
-							c.html($('.b-text30').html());
-							c.prepend('<div class="box-modal_close arcticmodal-close"></div>');
-							$.arcticmodal({
-								content: c
-							});
-						});
-					</script>
+			         
                     <div class="instr-btn">
                     <a href="files/instruction.doc" download class="download-url"><img src="images/instr.png"></a></br>
                     <span>Инструкция</span>
@@ -1866,7 +1857,16 @@ $(document).ready(function() { // вся магия после загрузки 
             </div>
 
 
-
+<script>
+                        $('#dd-foto').click(function() {
+                            var c = $('<div class="box-modal" />');
+                            c.html($('.b-text30').html());
+                            c.prepend('<div class="box-modal_close arcticmodal-close"></div>');
+                            $.arcticmodal({
+                                content: c
+                            });
+                        });
+                    </script>
 
         <script src="js/waypoints.min.js"></script>
         <script src="js/bootstrap.min.js"></script>

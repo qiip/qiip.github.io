@@ -1,8 +1,0 @@
-User-agent: *
-
-Allow: /
-Disallow: /cgi-bin/
-Disallow: /tmp/
-
-Host: admiralsky.od.ua
-Sitemap: http://admiralsky.od.ua/sitemap.xml

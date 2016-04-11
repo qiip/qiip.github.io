@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Адмиральский</title>
+    
+    <!-- Классы лендинга -->
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet" >
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/queries.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+   
+   <link rel="stylesheet" type="text/css" href="css/highslide.css" /> <!-- Стиль галлереи --> 
+   <link href="style.css" rel="stylesheet" type="text/css" /> <!-- Самописный стиль (наш) --> 
+   
+       <!-- Стили всплывающих событий -->
+    <link rel="stylesheet" href="js/arcticmodal/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" href="js/arcticmodal/themes/simple.css">
+    
+    
+    	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+        
+        
+        <!-- Start WOWSlider.com HEAD section -->
+        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+        <!-- End WOWSlider.com HEAD section -->
+        
+        
+        
+        
+        <!-- GOOGLE MAPS -->
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+ 
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script>
+var map;
+function initialize() {
+  var myLatlng = new google.maps.LatLng(46.4380051,30.7305734);
+  var mapOptions = {
+    zoom: 17,
+	scrollwheel: false,
+    center: new google.maps.LatLng(46.4380800, 30.7305734)
+  };
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+  var contentString = 'Бизнес-центр "Адмиральский"';
+
+  var infowindow = new google.maps.InfoWindow({
+      content: contentString
+  });
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Uluru (Ayers Rock)'
+  });
+  google.maps.event.addListener(marker, 'click', function() {
+    infowindow.open(map,marker);
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+        
+        <!-- GOOGLE MAPS END -->
+        
+        
+		<script src="js/modernizr.custom.js" type="text/javascript"></script>
+  
+    
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>  <!-- JQuery --> 
+    
+    <script src="http://unslider.com/unslider.min.js"></script>  <!-- Скрипт слайдера (шапка) --> 
+    
+    <script type="text/javascript" src="js/highslide-with-gallery.js"></script>  <!-- Скрипт галлереи --> 
+
+	<script src="js/coda.js" type="text/javascript"> </script>  <!-- Скрипт календаря (мини события) --> 
+    
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>  <!-- Скрипт всплывающих событий -->
+    
+    <script src="js/scrollup.js" type="text/javascript"></script>
+<script type="text/javascript" src="ajax.js"></script>
+    
+    <!-- Скрипт галлереи -->
+
+    <script type="text/javascript">
+    	hs.graphicsDir = 'img/';
+    	hs.align = 'center';
+    	hs.transitions = ['expand', 'crossfade'];
+    	hs.outlineType = 'rounded-white';
+    	hs.fadeInOut = true;
+    	hs.numberPosition = 'caption';
+    	hs.dimmingOpacity = 0.75;
+    
+    	// Add the controlbar
+    	if (hs.addSlideshow) hs.addSlideshow({
+    		//slideshowGroup: 'group1',
+    		interval: 5000,
+    		repeat: false,
+    		useControls: true,
+    		fixedControls: 'fit',
+    		overlayOptions: {
+    			opacity: .75,
+    			position: 'bottom center',
+    			hideOnMouseOut: true
+    		}
+    	});
+    </script>
+    
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+        <link rel="stylesheet" href="js/date/jquery-ui.css">
+
+          <script src="js/date/jquery-ui.js"></script>
+          
+<script type="text/javascript" src="js/rujquery.js">
+$.datepicker.setDefaults( $.datepicker.regional[ "" ] );
+$.datepicker.setDefaults( $.datepicker.regional[ "ru" ] );
+
+</script>
+
+<script type="text/javascript" src="ajax.js"></script>
+
+  
+      </head>
+      <body id="top">
+
+  <input class="datepicker" type="text">
+
+
+
+					<script>
+										
+
+							
+							$( ".datepicker" ).datepicker({ minDate: +1,
+								
+							 dateFormat:"yy-mm-dd",
+							
+							 });
+
+						
+						
+					</script>
+                    
+                    
+                    
+			
+
+
+      </body>
+    </html>

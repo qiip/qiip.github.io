@@ -88,8 +88,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
     
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>  <!-- JQuery --> 
     
-    <script src="js/jquery.arcticmodal-0.3.min.js"></script>  <!-- Скрипт всплывающих событий -->
-    
     <script type="text/javascript" src="js/unslider.min.js"></script>  <!-- Скрипт слайдера (шапка) --> 
     
     <script type="text/javascript" src="js/highslide-with-gallery.js"></script>  <!-- Скрипт галлереи --> 
@@ -176,16 +174,7 @@ $(document).ready(function() { // вся магия после загрузки 
 </script>
 
 
-<script>
-                        $('#dd-foto').click(function() {
-                            var c = $('<div class="box-modal" />');
-                            c.html($('.b-text30').html());
-                            c.prepend('<div class="box-modal_close arcticmodal-close"></div>');
-                            $.arcticmodal({
-                                content: c
-                            });
-                        });
-                    </script>
+
 
                     
   
@@ -1274,7 +1263,16 @@ $(document).ready(function() { // вся магия после загрузки 
                             </div>
                      </div>        
                             
-			         
+			         <script>
+						$('#dd-foto').click(function() {
+							var c = $('<div class="box-modal" />');
+							c.html($('.b-text30').html());
+							c.prepend('<div class="box-modal_close arcticmodal-close"></div>');
+							$.arcticmodal({
+								content: c
+							});
+						});
+					</script>
                     <div class="instr-btn">
                     <a href="files/instruction.doc" download class="download-url"><img src="images/instr.png"></a></br>
                     <span>Инструкция</span>
@@ -1867,7 +1865,7 @@ $(document).ready(function() { // вся магия после загрузки 
 
 
 
-
+<script src="js/jquery.arcticmodal-0.3.min.js"></script>  <!-- Скрипт всплывающих событий -->
         <script src="js/waypoints.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/scripts.js"></script>

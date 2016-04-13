@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1460309377222">
+<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1460579928341">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="198322895" ref="index"/>
-    <file name="iefonts_index.css" crc="312368133" ref="index"/>
+    <file name="index.css" crc="28942981" ref="index"/>
+    <file name="iefonts_index.css" crc="420106985" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="smoothscroll.js" crc="4246782887" seo="true" mt="1459147433000"/>
@@ -41,6 +41,7 @@
     <file name="home_slide03.jpg" crc="4144246012" seo="true" ref="phone>index:index"/>
     <file name="home_slide04.jpg" crc="390698339" seo="true" ref="phone>index:index"/>
     <file name="loading.gif" crc="3815509949" ref="phone>index:tablet>index:index"/>
+    <file name="logo.png" crc="4175236551" seo="true" ref="phone>index:tablet>index"/>
     <file name="icon_close.png" crc="4191264615" seo="true" ref="phone>index"/>
     <file name="about_bg.jpg" crc="335141631" ref="phone>index:tablet>index:index"/>
     <file name="services_bg.jpg" crc="4069859873" ref="phone>index:tablet>index:index"/>
@@ -71,7 +72,9 @@
     <file name="folio01_thumb.jpg" crc="126445928" ref="phone>index:tablet>index"/>
     <file name="folio02_thumb.jpg" crc="248545468" ref="phone>index:tablet>index"/>
     <file name="folio03_thumb.jpg" crc="4160629532" ref="phone>index:tablet>index"/>
-    <file name="folio06_thumb.jpg" crc="37934194" ref="phone>index:tablet>index"/>
+    <file name="folio04_thumb-u20335-fr.jpg" crc="45135950" ref="phone>index"/>
+    <file name="folio05_thumb.jpg" crc="3904714183" ref="phone>index:tablet>index"/>
+    <file name="folio06_thumb-u20338-fr.jpg" crc="225428709" ref="phone>index"/>
     <file name="team_img01.jpg" crc="3900763319" ref="phone>index:tablet>index:index"/>
     <file name="team_img02.jpg" crc="4076620409" ref="phone>index:tablet>index:index"/>
     <file name="team_img03.jpg" crc="282230381" ref="phone>index:tablet>index:index"/>
@@ -105,16 +108,18 @@
     <file name="folio04a594x394.jpg" crc="282694437" seo="true" ref="tablet>index"/>
     <file name="folio04b594x394.jpg" crc="453684618" seo="true" ref="tablet>index"/>
     <file name="folio04c594x394.jpg" crc="3919106050" seo="true" ref="tablet>index"/>
-    <file name="folio05a594x394.jpg" crc="118611354" seo="true" ref="tablet>index"/>
-    <file name="folio05b594x394.jpg" crc="4227712928" seo="true" ref="tablet>index"/>
-    <file name="folio05c594x394.jpg" crc="448973402" seo="true" ref="tablet>index"/>
-    <file name="folio04_thumb.jpg" crc="3990743922" ref="tablet>index:phone>index"/>
-    <file name="folio05_thumb.jpg" crc="3835929240" ref="tablet>index:phone>index"/>
+    <file name="folio05a.jpg" crc="118611354" seo="true" ref="tablet>index"/>
+    <file name="folio05b.jpg" crc="4227712928" seo="true" ref="tablet>index"/>
+    <file name="folio05c.jpg" crc="448973402" seo="true" ref="tablet>index"/>
+    <file name="folio06a594x394.jpg" crc="129648152" seo="true" ref="tablet>index"/>
+    <file name="folio06b594x394.jpg" crc="4131821546" seo="true" ref="tablet>index"/>
+    <file name="folio06c594x394.jpg" crc="4225421249" seo="true" ref="tablet>index"/>
+    <file name="folio04_thumb.jpg" crc="98031165" seo="true" ref="tablet>index:index"/>
+    <file name="folio06_thumb.jpg" crc="4249383560" seo="true" ref="tablet>index:index"/>
     <file name="u14874-17.png" crc="380512937" ref="tablet>index"/>
     <file name="u14874-17-r.png" crc="436060428" ref="tablet>index"/>
     <file name="u14874-17-m.png" crc="436060428" ref="tablet>index"/>
     <file name="u14874-17-fs.png" crc="102510978" ref="tablet>index"/>
-    <file name="desktop-master-favicon.ico" crc="78660814" ref="index"/>
     <file name="top_scl_icn_fb.png" crc="4163445723" seo="true" ref="index"/>
     <file name="top_scl_icn_gp.png" crc="34897585" seo="true" ref="index"/>
     <file name="top_scl_icn_ln.png" crc="3826927679" seo="true" ref="index"/>
@@ -125,41 +130,34 @@
     <file name="gps.png" crc="4032060809" seo="true" ref="index"/>
     <file name="shop.png" crc="3998628052" seo="true" ref="index"/>
     <file name="sign.png" crc="4133818493" seo="true" ref="index"/>
-    <file name="folio06a.jpg" crc="129648152" seo="true" ref="tablet>index"/>
-    <file name="folio06b.jpg" crc="4131821546" seo="true" ref="tablet>index"/>
-    <file name="folio06c.jpg" crc="4225421249" seo="true" ref="tablet>index"/>
-    <file name="folio01a-ieu18415-fr.png" crc="435387763" ref="index"/>
+    <file name="folio06a.jpg" crc="129648152" seo="true" ref="index"/>
+    <file name="folio06b.jpg" crc="4131821546" seo="true" ref="index"/>
+    <file name="folio06c.jpg" crc="4225421249" seo="true" ref="index"/>
+    <file name="folio04a.jpg" crc="536611478" seo="true" ref="index"/>
+    <file name="folio04b.jpg" crc="3943739755" seo="true" ref="index"/>
+    <file name="folio04c.jpg" crc="3788413649" seo="true" ref="index"/>
+    <file name="folio01a-ieu19334-fr.png" crc="435387763" ref="index"/>
     <file name="expand.png" crc="234042916" ref="index"/>
+    <file name="portfolio_behance.png" crc="3862762438" seo="true" ref="index"/>
     <file name="u21487-17.png" crc="285186422" ref="index"/>
     <file name="u21487-17-r.png" crc="4087992396" ref="index"/>
     <file name="u21487-17-m.png" crc="4087992396" ref="index"/>
     <file name="u21487-17-fs.png" crc="285186422" ref="index"/>
-    <file name="logo.png" crc="4175236551" seo="true" ref="phone>index:tablet>index"/>
-    <file name="servicesonfly-crop-u27154.jpg" crc="185183882" ref="index"/>
-    <file name="goodsonfly-crop-u27181.jpg" crc="4022924161" ref="index"/>
-    <file name="picture1-crop-u27235.jpg" crc="4262353664" ref="index"/>
-    <file name="activitiesonfly-crop-u27262.jpg" crc="4233546442" ref="index"/>
-    <file name="picture2-crop-u27289.jpg" crc="3994154208" ref="index"/>
-    <file name="servicesonfly-crop-u18415.jpg" crc="184116100" ref="index"/>
-    <file name="goodsonfly-crop-u18409.jpg" crc="279274407" ref="index"/>
-    <file name="foodonfly-crop-u18435.jpg" crc="3983015980" ref="index"/>
-    <file name="picture1-crop-u18419.jpg" crc="4182097134" ref="index"/>
-    <file name="picture2-crop-u18425.jpg" crc="3789949877" ref="index"/>
-    <file name="servicesonfly-crop-u27160.jpg" crc="3911227622" ref="index"/>
+    <file name="onflydevelopment-servicies-favicon.ico" crc="4014301520" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
-      <file name="index.css" crc="226383911" ref="tablet>index"/>
+      <file name="index.css" crc="325053438" ref="tablet>index"/>
       <file name="iefonts_index.css" crc="327771721" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="534629353" seo="true" mt="1460307548470" redirect="true"/>
+    <file name="index.html" crc="4199277121" seo="true" mt="1460578885751" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="171332732" ref="phone>index"/>
+      <file name="index.css" crc="504150816" ref="phone>index"/>
       <file name="iefonts_index.css" crc="178044760" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="232747172" seo="true" mt="1460307548473" redirect="true"/>
+    <file name="index.html" crc="3929993311" seo="true" mt="1460578885748" redirect="true"/>
   </folder>
-  <file name="index.html" crc="67737869" seo="true" mt="1460309362379" redirect="true"/>
+  <file name="index.html" crc="4046011224" seo="true" mt="1460579897427" redirect="true"/>
 </manifest>

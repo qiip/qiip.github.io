@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1461217319612">
+<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1461217604453">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="4257606047" ref="index"/>
+    <file name="index.css" crc="248671341" ref="index"/>
     <file name="iefonts_index.css" crc="75367499" ref="index"/>
   </folder>
   <folder name="assets">
@@ -165,5 +165,5 @@
     </folder>
     <file name="index.html" crc="382140988" seo="true" mt="1461216971398" redirect="true"/>
   </folder>
-  <file name="index.html" crc="176209532" seo="true" mt="1461217292102" redirect="true"/>
+  <file name="index.html" crc="46833409" seo="true" mt="1461217547711" redirect="true"/>
 </manifest>

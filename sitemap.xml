@@ -283,6 +283,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://www.domain.com/images/folio01a.jpg</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://www.domain.com/images/folio01b.jpg</loc>
     <lastmod>2016-04-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -331,6 +337,24 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://www.domain.com/images/folio04a.jpg</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/folio04b.jpg</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/folio04c.jpg</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://www.domain.com/images/folio05a.jpg</loc>
     <lastmod>2016-04-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -349,7 +373,67 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://www.domain.com/images/folio06a.jpg</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/folio06b.jpg</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/folio06c.jpg</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/top_scl_icn_fb.png</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/top_scl_icn_gp.png</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/top_scl_icn_ln.png</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/top_scl_icn_tw.png</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://www.domain.com/images/logo_ofd_white.png</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/03_1920_1080.jpg</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/01_1920_1080.jpg</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/02_1920_1080%20(1).jpg</loc>
     <lastmod>2016-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -368,6 +452,12 @@
   </url>
   <url>
     <loc>http://www.domain.com/images/sign.png</loc>
+    <lastmod>2016-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/services.png</loc>
     <lastmod>2016-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -409,85 +499,49 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.domain.com/images/folio06a.jpg</loc>
+    <loc>http://www.domain.com/images/folio01b2.jpg</loc>
     <lastmod>2016-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.domain.com/images/folio06b.jpg</loc>
+    <loc>http://www.domain.com/images/folio01c2.jpg</loc>
     <lastmod>2016-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.domain.com/images/folio06c.jpg</loc>
+    <loc>http://www.domain.com/images/folio02a2.jpg</loc>
     <lastmod>2016-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.domain.com/images/folio04a.jpg</loc>
+    <loc>http://www.domain.com/images/folio02b2.jpg</loc>
     <lastmod>2016-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.domain.com/images/folio04b.jpg</loc>
+    <loc>http://www.domain.com/images/folio02c2.jpg</loc>
     <lastmod>2016-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.domain.com/images/folio04c.jpg</loc>
+    <loc>http://www.domain.com/images/folio03a2.jpg</loc>
     <lastmod>2016-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.domain.com/images/03_1920_1080.jpg</loc>
+    <loc>http://www.domain.com/images/folio03b2.jpg</loc>
     <lastmod>2016-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.domain.com/images/01_1920_1080.jpg</loc>
-    <lastmod>2016-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/02_1920_1080%20(1).jpg</loc>
-    <lastmod>2016-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/services.png</loc>
-    <lastmod>2016-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/top_scl_icn_fb.png</loc>
-    <lastmod>2016-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/top_scl_icn_gp.png</loc>
-    <lastmod>2016-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/top_scl_icn_ln.png</loc>
-    <lastmod>2016-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/top_scl_icn_tw.png</loc>
+    <loc>http://www.domain.com/images/folio03c2.jpg</loc>
     <lastmod>2016-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

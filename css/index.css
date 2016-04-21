@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #00000E;
-	background-color: #D26C6D;
+	color: #0000FD;
+	background-color: #7A473D;
 }
 
 #page
@@ -3627,6 +3627,8 @@
 #ppamphletu28478
 {
 	width: 0.01px;
+	padding-bottom: 1215px;
+	margin-bottom: -1201px;
 	margin-right: -10000px;
 }
 
@@ -3645,7 +3647,7 @@
 	width: 1180px;
 	border-width: 0px;
 	border-color: transparent;
-	background-color: #FFFFFF;
+	background-color: #7F7F7F;
 	padding-bottom: 60px;
 	top: 701px;
 }
@@ -4333,7 +4335,7 @@
 	border-width: 0px;
 	border-color: #000000;
 	background: #7F7F7F url("../images/folio01a-ieu28498-fr.png") no-repeat center center;
-	background: rgba(0,0,0,0) url("../images/folio01a.jpg") no-repeat center center;
+	background: rgba(0,0,0,0) url("../images/folio01a2.jpg") no-repeat center center;
 	background-color: #7F7F7F;
 	background-size: cover;
 }
@@ -4595,7 +4597,7 @@
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 	filter: alpha(opacity=50);
 	line-height: 10px;
-	color: #333333;
+	color: #FFFFFF;
 	font-size: 13px;
 	text-align: center;
 	font-family: raleway, sans-serif;
@@ -4925,10 +4927,10 @@
 	width: 700px;
 	min-height: 203px;
 	line-height: 60px;
-	color: #FFFFFF;
 	font-size: 30px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+	color: #FFFFFF;
 	text-align: center;
 	font-family: raleway, sans-serif;
 	font-weight: 300;
@@ -4951,10 +4953,10 @@
 	width: 220px;
 	min-height: 15px;
 	line-height: 14px;
-	color: #FFFFFF;
 	font-size: 14px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
+	color: #FFFFFF;
 	text-align: center;
 	font-family: raleway, sans-serif;
 	font-weight: 400;
@@ -5139,8 +5141,8 @@
 	border-color: #8C8C8C;
 	background-color: #FFFFFF;
 	padding: 6px;
-	line-height: 23px;
 	color: #C4C4C4;
+	line-height: 23px;
 	font-size: 13px;
 	font-family: open-sans, sans-serif;
 	font-weight: 400;
@@ -5253,8 +5255,8 @@
 	border-color: #8C8C8C;
 	background-color: #FFFFFF;
 	padding: 6px;
-	line-height: 23px;
 	color: #C4C4C4;
+	line-height: 23px;
 	font-size: 13px;
 	font-family: open-sans, sans-serif;
 	font-weight: 400;
@@ -5516,8 +5518,8 @@
 	border-color: #8C8C8C;
 	background-color: #FFFFFF;
 	padding: 6px;
-	line-height: 23px;
 	color: #C4C4C4;
+	line-height: 23px;
 	font-size: 13px;
 	font-family: open-sans, sans-serif;
 	font-weight: 400;

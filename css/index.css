@@ -23,8 +23,8 @@
 
 .version.index /* version checker */
 {
-	color: #0000EB;
-	background-color: #FA6679;
+	color: #0000FF;
+	background-color: #58EDE2;
 }
 
 #page
@@ -2629,7 +2629,7 @@
 	background-color: #7F7F7F;
 	padding-bottom: 5px;
 	top: 502px;
-	left: 941px;
+	left: 951px;
 }
 
 #u27346:hover
@@ -3777,6 +3777,8 @@
 	background-color: #7F7F7F;
 	padding-bottom: 60px;
 	top: 701px;
+	opacity: 0.9;
+}
 }
 
 #u30873popup
@@ -4578,8 +4580,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	top: 707px;
-	left: 100px;
+	top: 1053px;
+	left: 98px;
 }
 
 #u30841
@@ -4606,8 +4608,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	top: 707px;
-	left: 1030px;
+	top: 1053px;
+	left: 1028px;
 }
 
 #u31061
@@ -4810,9 +4812,25 @@
 	left: 130px;
 }
 
-#u2719
+#u13031
 {
 	z-index: 603;
+	width: 2845px;
+	height: 735px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: #2C2C2C;
+	-webkit-transform: matrix(0.7071,0.7071,-0.7071,0.7071,677,-898);
+	-ms-transform: matrix(0.7071,0.7071,-0.7071,0.7071,677,-898);
+	transform: matrix(0.7071,0.7071,-0.7071,0.7071,677,-898);
+	position: fixed;
+	top: 7064px;
+	left: -1761px;
+}
+
+#u2719
+{
+	z-index: 604;
 	width: 1499px;
 	height: 9px;
 	border-width: 0px;
@@ -4828,7 +4846,7 @@
 
 #u11241
 {
-	z-index: 604;
+	z-index: 605;
 	width: 2845px;
 	height: 735px;
 	border-width: 0px;
@@ -4844,7 +4862,7 @@
 
 #u11242
 {
-	z-index: 605;
+	z-index: 606;
 	width: 2852px;
 	height: 735px;
 	border-width: 0px;
@@ -4858,23 +4876,7 @@
 	left: -70px;
 }
 
-#u13031
-{
-	z-index: 606;
-	width: 2845px;
-	height: 735px;
-	border-width: 0px;
-	border-color: transparent;
-	background-color: #2C2C2C;
-	-webkit-transform: matrix(0.7071,0.7071,-0.7071,0.7071,677,-898);
-	-ms-transform: matrix(0.7071,0.7071,-0.7071,0.7071,677,-898);
-	transform: matrix(0.7071,0.7071,-0.7071,0.7071,677,-898);
-	position: fixed;
-	top: 7064px;
-	left: -1761px;
-}
-
-.js #u10997.ose_pre_init,.js #u646.ose_pre_init,.js #u647.ose_pre_init,.js #u13030.ose_pre_init,.js #u11241.ose_pre_init,.js #u11242.ose_pre_init,.js #u13031.ose_pre_init
+.js #u10997.ose_pre_init,.js #u646.ose_pre_init,.js #u647.ose_pre_init,.js #u13030.ose_pre_init,.js #u13031.ose_pre_init,.js #u11241.ose_pre_init,.js #u11242.ose_pre_init
 {
 	opacity: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";

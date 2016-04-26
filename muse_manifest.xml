@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1461707588765">
+<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1461708999215">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="3959055993" ref="index"/>
+    <file name="index.css" crc="4284018146" ref="index"/>
     <file name="iefonts_index.css" crc="3889964369" ref="index"/>
   </folder>
   <folder name="assets">
@@ -127,12 +127,9 @@
     <file name="02_1920_1080 (1).jpg" crc="4077989367" seo="true" ref="index"/>
     <file name="u13469-grad.png" crc="340914322" ref="index"/>
     <file name="u15086-grad.png" crc="4122642455" ref="index"/>
-    <file name="gps.png" crc="4032060809" seo="true" ref="index"/>
-    <file name="shop.png" crc="3998628052" seo="true" ref="index"/>
-    <file name="sign.png" crc="4133818493" seo="true" ref="index"/>
     <file name="services.png" crc="326835897" seo="true" ref="index"/>
-    <file name="arrows-1.png" crc="412863111" seo="true" ref="index"/>
-    <file name="arrows.png" crc="487509240" seo="true" ref="index"/>
+    <file name="arrows-1.png" crc="24935258" seo="true" ref="index"/>
+    <file name="arrows.png" crc="312320415" seo="true" ref="index"/>
     <file name="expand.png" crc="234042916" ref="index"/>
     <file name="u21487-17.png" crc="285186422" ref="index"/>
     <file name="u21487-17-r.png" crc="4087992396" ref="index"/>
@@ -153,6 +150,9 @@
     <file name="top_scl_icn_gp.png" crc="34897585" seo="true" ref="index"/>
     <file name="top_scl_icn_ln.png" crc="3826927679" seo="true" ref="index"/>
     <file name="top_scl_icn_tw.png" crc="3840287370" seo="true" ref="index"/>
+    <file name="map.png" crc="3877879824" seo="true" ref="index"/>
+    <file name="home.png" crc="451633128" seo="true" ref="index"/>
+    <file name="business.png" crc="3874324232" seo="true" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -168,5 +168,5 @@
     </folder>
     <file name="index.html" crc="382140988" seo="true" mt="1461702074298" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3813148713" seo="true" mt="1461707437558" redirect="true"/>
+  <file name="index.html" crc="3855693934" seo="true" mt="1461708976456" redirect="true"/>
 </manifest>

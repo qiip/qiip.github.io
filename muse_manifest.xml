@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1461708999215">
+<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1462394677110">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="4284018146" ref="index"/>
-    <file name="iefonts_index.css" crc="3889964369" ref="index"/>
+    <file name="index.css" crc="4273153553" ref="index"/>
+    <file name="iefonts_index.css" crc="3880184574" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="smoothscroll.js" crc="4246782887" seo="true" mt="1459147433000"/>
@@ -41,7 +41,7 @@
     <file name="blank.gif" crc="4208392903" ref="phone>index:tablet>index:index"/>
     <file name="home_slide02.jpg" crc="4024707154" seo="true" ref="phone>index"/>
     <file name="home_slide03.jpg" crc="4144246012" seo="true" ref="phone>index"/>
-    <file name="home_slide04.jpg" crc="390698339" seo="true" ref="phone>index:index"/>
+    <file name="home_slide04.jpg" crc="390698339" seo="true" ref="phone>index"/>
     <file name="loading.gif" crc="3815509949" ref="phone>index:tablet>index:index"/>
     <file name="logo.png" crc="4175236551" seo="true" ref="phone>index:tablet>index"/>
     <file name="icon_close.png" crc="4191264615" seo="true" ref="phone>index"/>
@@ -124,21 +124,15 @@
     <file name="logo_ofd_white.png" crc="3822260581" seo="true" ref="index"/>
     <file name="03_1920_1080.jpg" crc="4078273796" seo="true" ref="index"/>
     <file name="01_1920_1080.jpg" crc="3820023895" seo="true" ref="index"/>
-    <file name="02_1920_1080 (1).jpg" crc="4077989367" seo="true" ref="index"/>
     <file name="u13469-grad.png" crc="340914322" ref="index"/>
     <file name="u15086-grad.png" crc="4122642455" ref="index"/>
     <file name="services.png" crc="326835897" seo="true" ref="index"/>
     <file name="arrows-1.png" crc="24935258" seo="true" ref="index"/>
     <file name="arrows.png" crc="312320415" seo="true" ref="index"/>
-    <file name="expand.png" crc="234042916" ref="index"/>
     <file name="u21487-17.png" crc="285186422" ref="index"/>
     <file name="u21487-17-r.png" crc="4087992396" ref="index"/>
     <file name="u21487-17-m.png" crc="4087992396" ref="index"/>
     <file name="u21487-17-fs.png" crc="285186422" ref="index"/>
-    <file name="goodsonfly.png" crc="3783803915" seo="true" ref="index"/>
-    <file name="getonfly.png" crc="4028028883" seo="true" ref="index"/>
-    <file name="activitiesonfly.png" crc="299417788" seo="true" ref="index"/>
-    <file name="financeonfly.png" crc="394202760" seo="true" ref="index"/>
     <file name="ondemand-development.png" crc="21566731" seo="true" ref="index"/>
     <file name="qa-services.png" crc="118783297" seo="true" ref="index"/>
     <file name="cloud-testing.png" crc="4108439488" seo="true" ref="index"/>
@@ -153,6 +147,12 @@
     <file name="map.png" crc="3877879824" seo="true" ref="index"/>
     <file name="home.png" crc="451633128" seo="true" ref="index"/>
     <file name="business.png" crc="3874324232" seo="true" ref="index"/>
+    <file name="ofd_slide2.jpg" crc="3982139506" seo="true" ref="index"/>
+    <file name="ofd_slide.jpg" crc="493999657" seo="true" ref="index"/>
+    <file name="goodsonfly.jpg" crc="4073153104" seo="true" ref="index"/>
+    <file name="getonfly.jpg" crc="263030167" seo="true" ref="index"/>
+    <file name="activitiesonfly.jpg" crc="3786196034" seo="true" ref="index"/>
+    <file name="financeonfly.jpg" crc="375554833" seo="true" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -168,5 +168,5 @@
     </folder>
     <file name="index.html" crc="382140988" seo="true" mt="1461702074298" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3855693934" seo="true" mt="1461708976456" redirect="true"/>
+  <file name="index.html" crc="52127099" seo="true" mt="1462394609993" redirect="true"/>
 </manifest>

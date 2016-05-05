@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1462394677110">
+<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1462437817227">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="4273153553" ref="index"/>
+    <file name="index.css" crc="4236820757" ref="index"/>
     <file name="iefonts_index.css" crc="3880184574" ref="index"/>
   </folder>
   <folder name="assets">
@@ -146,13 +146,13 @@
     <file name="top_scl_icn_tw.png" crc="3840287370" seo="true" ref="index"/>
     <file name="map.png" crc="3877879824" seo="true" ref="index"/>
     <file name="home.png" crc="451633128" seo="true" ref="index"/>
-    <file name="business.png" crc="3874324232" seo="true" ref="index"/>
     <file name="ofd_slide2.jpg" crc="3982139506" seo="true" ref="index"/>
     <file name="ofd_slide.jpg" crc="493999657" seo="true" ref="index"/>
-    <file name="goodsonfly.jpg" crc="4073153104" seo="true" ref="index"/>
-    <file name="getonfly.jpg" crc="263030167" seo="true" ref="index"/>
-    <file name="activitiesonfly.jpg" crc="3786196034" seo="true" ref="index"/>
-    <file name="financeonfly.jpg" crc="375554833" seo="true" ref="index"/>
+    <file name="delivery-package-opened.png" crc="4190671405" seo="true" ref="index"/>
+    <file name="goodsonfly.png" crc="4018442103" seo="true" ref="index"/>
+    <file name="getonfly.png" crc="432693568" seo="true" ref="index"/>
+    <file name="activitiesonfly.png" crc="459249949" seo="true" ref="index"/>
+    <file name="financeonfly.png" crc="3976256461" seo="true" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -168,5 +168,5 @@
     </folder>
     <file name="index.html" crc="382140988" seo="true" mt="1461702074298" redirect="true"/>
   </folder>
-  <file name="index.html" crc="52127099" seo="true" mt="1462394609993" redirect="true"/>
+  <file name="index.html" crc="421403284" seo="true" mt="1462437796468" redirect="true"/>
 </manifest>

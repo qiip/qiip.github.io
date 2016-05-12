@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1462437817227">
+<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1463038287744">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="4236820757" ref="index"/>
-    <file name="iefonts_index.css" crc="3880184574" ref="index"/>
+    <file name="index.css" crc="3888044145" ref="index"/>
+    <file name="iefonts_index.css" crc="271670665" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="smoothscroll.js" crc="4246782887" seo="true" mt="1459147433000"/>
@@ -11,7 +11,8 @@
     <file name="jquery.min.js" crc="3828297711" seo="true" mt="1459147433000"/>
     <file name="wow.min.js" crc="168934992" seo="true" mt="1459147433000"/>
     <file name="video.mp4" crc="4256427466" seo="true" mt="1461009711000"/>
-    <file name="video2.mp4" crc="4256427466" seo="true" mt="1461009711000"/>
+    <file name="aloha-mundo.webm" crc="76632267" seo="true" mt="1463032150000"/>
+    <file name="aloha-mundo.mp4" crc="3986973592" seo="true" mt="1463032603000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="207176553" ref="phone>index:tablet>index:index"/>
@@ -153,6 +154,56 @@
     <file name="getonfly.png" crc="432693568" seo="true" ref="index"/>
     <file name="activitiesonfly.png" crc="459249949" seo="true" ref="index"/>
     <file name="financeonfly.png" crc="3976256461" seo="true" ref="index"/>
+    <file name="folio-img-01-crop-u36161.jpg" crc="4156301948" ref="index"/>
+    <file name="folio-img-02-crop-u36167.jpg" crc="3879848034" ref="index"/>
+    <file name="folio-img-03-crop-u36169.jpg" crc="4222389214" ref="index"/>
+    <file name="folio-img-04-crop-u36171.jpg" crc="4125386102" ref="index"/>
+    <file name="folio-img-05-crop-u36179.jpg" crc="3888136191" ref="index"/>
+    <file name="folio-img-06-crop-u36165.jpg" crc="3956629757" ref="index"/>
+    <file name="folio-img-07-crop-u36181.jpg" crc="4124180493" ref="index"/>
+    <file name="folio-img-08-crop-u36173.jpg" crc="4024600977" ref="index"/>
+    <file name="folio-img-09-crop-u36177.jpg" crc="326709175" ref="index"/>
+    <file name="folio-img-10-crop-u36159.jpg" crc="4108903798" ref="index"/>
+    <file name="folio-img-11-crop-u36163.jpg" crc="3758178067" ref="index"/>
+    <file name="folio-img-12-crop-u36175.jpg" crc="3987728997" ref="index"/>
+    <file name="folio-img-01.jpg" crc="67682208" seo="true" ref="index"/>
+    <file name="folio-img-02.jpg" crc="156128291" seo="true" ref="index"/>
+    <file name="folio-img-03.jpg" crc="3848229573" seo="true" ref="index"/>
+    <file name="folio-img-04.jpg" crc="23632105" seo="true" ref="index"/>
+    <file name="folio-img-05.jpg" crc="4047153727" seo="true" ref="index"/>
+    <file name="folio-img-06.jpg" crc="4142980026" seo="true" ref="index"/>
+    <file name="folio-img-07.jpg" crc="4029132514" seo="true" ref="index"/>
+    <file name="folio-img-08.jpg" crc="270637556" seo="true" ref="index"/>
+    <file name="folio-img-09.jpg" crc="4168018125" seo="true" ref="index"/>
+    <file name="folio-img-10.jpg" crc="272206278" seo="true" ref="index"/>
+    <file name="folio-img-11.jpg" crc="332796314" seo="true" ref="index"/>
+    <file name="folio-img-12.jpg" crc="3779257780" seo="true" ref="index"/>
+    <file name="arrow-blk-left.png" crc="170346569" seo="true" ref="index"/>
+    <file name="arrow-blk-right.png" crc="460826222" seo="true" ref="index"/>
+    <file name="folio-img-12-crop-u36035.jpg" crc="3987728997" ref="index"/>
+    <file name="folio-img-11-crop-u36055.jpg" crc="3758178067" ref="index"/>
+    <file name="folio-img-10-crop-u36037.jpg" crc="4108903798" ref="index"/>
+    <file name="folio-img-09-crop-u36045.jpg" crc="326709175" ref="index"/>
+    <file name="folio-img-08-crop-u36033.jpg" crc="4024600977" ref="index"/>
+    <file name="folio-img-07-crop-u36047.jpg" crc="4124180493" ref="index"/>
+    <file name="folio-img-06-crop-u36049.jpg" crc="3956629757" ref="index"/>
+    <file name="folio-img-05-crop-u36041.jpg" crc="3888136191" ref="index"/>
+    <file name="folio-img-04-crop-u36051.jpg" crc="4125386102" ref="index"/>
+    <file name="folio-img-03-crop-u36053.jpg" crc="4222389214" ref="index"/>
+    <file name="folio-img-02-crop-u36043.jpg" crc="3879848034" ref="index"/>
+    <file name="folio-img-01-crop-u36039.jpg" crc="4156301948" ref="index"/>
+    <file name="folio-vid-thumb-01.jpg" crc="3857328017" ref="index"/>
+    <file name="folio-vid-thumb-02.jpg" crc="4008070318" ref="index"/>
+    <file name="folio-vid-thumb-03.jpg" crc="4170175546" ref="index"/>
+    <file name="folio-vid-thumb-04.jpg" crc="474520909" ref="index"/>
+    <file name="folio-vid-thumb-05.jpg" crc="3794326075" ref="index"/>
+    <file name="folio-vid-thumb-06.jpg" crc="468880282" ref="index"/>
+    <file name="folio-vid-thumb-07.jpg" crc="81096610" ref="index"/>
+    <file name="folio-vid-thumb-08.jpg" crc="357455409" ref="index"/>
+    <file name="folio-vid-thumb-09.jpg" crc="3860626590" ref="index"/>
+    <file name="folio-vid-thumb-10.jpg" crc="4275646963" ref="index"/>
+    <file name="folio-vid-thumb-11.jpg" crc="239251407" ref="index"/>
+    <file name="folio-vid-thumb-12.jpg" crc="4143904148" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -168,5 +219,5 @@
     </folder>
     <file name="index.html" crc="382140988" seo="true" mt="1461702074298" redirect="true"/>
   </folder>
-  <file name="index.html" crc="421403284" seo="true" mt="1462437796468" redirect="true"/>
+  <file name="index.html" crc="4290291924" seo="true" mt="1463038264374" redirect="true"/>
 </manifest>

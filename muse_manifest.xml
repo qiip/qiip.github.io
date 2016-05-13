@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1463170662941">
+<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1463171663810">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="17482699" ref="index"/>
+    <file name="index.css" crc="4193860560" ref="index"/>
     <file name="iefonts_index.css" crc="517070239" ref="index"/>
   </folder>
   <folder name="assets">
@@ -10,8 +10,8 @@
     <file name="customcss.css" crc="389955894" seo="true" mt="1459147433000"/>
     <file name="jquery.min.js" crc="3828297711" seo="true" mt="1459147433000"/>
     <file name="wow.min.js" crc="168934992" seo="true" mt="1459147433000"/>
-    <file name="video.mp4" crc="4256427466" seo="true" mt="1461009711000"/>
-    <file name="white-keyboard.mp4" crc="3814494466" seo="true" mt="1463139215000"/>
+    <file name="white-keyboard.mp4" crc="176295915" seo="true" mt="1463171417000"/>
+    <file name="white-keyboard.webm" crc="167508732" seo="true" mt="1463171601000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="207176553" ref="phone>index:tablet>index:index"/>
@@ -187,5 +187,5 @@
     </folder>
     <file name="index.html" crc="382140988" seo="true" mt="1461702074298" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3834711317" seo="true" mt="1463170643805" redirect="true"/>
+  <file name="index.html" crc="162124389" seo="true" mt="1463171616340" redirect="true"/>
 </manifest>

@@ -31,13 +31,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.domain.com/assets/video.mp4</loc>
-    <lastmod>2016-04-18</lastmod>
+    <loc>http://www.domain.com/assets/white-keyboard.mp4</loc>
+    <lastmod>2016-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.domain.com/assets/white-keyboard.mp4</loc>
+    <loc>http://www.domain.com/assets/white-keyboard.webm</loc>
     <lastmod>2016-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

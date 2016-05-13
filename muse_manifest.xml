@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1463125059555">
+<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1463170662941">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="3994116078" ref="index"/>
-    <file name="iefonts_index.css" crc="462852206" ref="index"/>
+    <file name="index.css" crc="17482699" ref="index"/>
+    <file name="iefonts_index.css" crc="517070239" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="smoothscroll.js" crc="4246782887" seo="true" mt="1459147433000"/>
@@ -11,7 +11,7 @@
     <file name="jquery.min.js" crc="3828297711" seo="true" mt="1459147433000"/>
     <file name="wow.min.js" crc="168934992" seo="true" mt="1459147433000"/>
     <file name="video.mp4" crc="4256427466" seo="true" mt="1461009711000"/>
-    <file name="white-keyboard.mp4" crc="244839629" seo="true" mt="1463123382000"/>
+    <file name="white-keyboard.mp4" crc="3814494466" seo="true" mt="1463139215000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="207176553" ref="phone>index:tablet>index:index"/>
@@ -98,7 +98,7 @@
     <file name="services-icn-032.png" crc="3983398721" seo="true" ref="tablet>index"/>
     <file name="services-icn-062.png" crc="3802786967" seo="true" ref="tablet>index"/>
     <file name="services-icn-052.png" crc="25058406" seo="true" ref="tablet>index"/>
-    <file name="folio01a.jpg" crc="3854628363" ref="tablet>index:index"/>
+    <file name="folio01a.jpg" crc="4139920635" ref="tablet>index:index"/>
     <file name="folio01b.jpg" crc="337753445" seo="true" ref="tablet>index"/>
     <file name="folio01c.jpg" crc="225692312" seo="true" ref="tablet>index"/>
     <file name="folio02a.jpg" crc="3912248833" seo="true" ref="tablet>index"/>
@@ -131,9 +131,9 @@
     <file name="u21487-17-r.png" crc="4087992396" ref="index"/>
     <file name="u21487-17-m.png" crc="4087992396" ref="index"/>
     <file name="u21487-17-fs.png" crc="285186422" ref="index"/>
-    <file name="ondemand-development.png" crc="21566731" seo="true" ref="index"/>
-    <file name="qa-services.png" crc="118783297" seo="true" ref="index"/>
-    <file name="cloud-testing.png" crc="4108439488" seo="true" ref="index"/>
+    <file name="ondemand-development.png" crc="352854089" seo="true" ref="index"/>
+    <file name="qa-services.png" crc="3806867775" seo="true" ref="index"/>
+    <file name="cloud-testing.png" crc="3911513371" seo="true" ref="index"/>
     <file name="ondemand-development_photo.jpg" crc="351475473" seo="true" ref="index"/>
     <file name="qa-services_photo.jpg" crc="3822817991" seo="true" ref="index"/>
     <file name="cloud-testing_photo.jpg" crc="3995700231" seo="true" ref="index"/>
@@ -144,43 +144,34 @@
     <file name="getonfly.png" crc="432693568" seo="true" ref="index"/>
     <file name="activitiesonfly.png" crc="459249949" seo="true" ref="index"/>
     <file name="financeonfly.png" crc="3976256461" seo="true" ref="index"/>
-    <file name="folio-img-01.jpg" crc="67682208" seo="true" ref="index"/>
-    <file name="folio-img-02.jpg" crc="156128291" seo="true" ref="index"/>
-    <file name="folio-img-04.jpg" crc="23632105" seo="true" ref="index"/>
-    <file name="folio-img-05.jpg" crc="4047153727" seo="true" ref="index"/>
-    <file name="folio-img-06.jpg" crc="4142980026" seo="true" ref="index"/>
-    <file name="folio-img-07.jpg" crc="4029132514" seo="true" ref="index"/>
-    <file name="folio-img-08.jpg" crc="270637556" seo="true" ref="index"/>
-    <file name="folio-img-10.jpg" crc="272206278" seo="true" ref="index"/>
-    <file name="folio-img-11.jpg" crc="332796314" seo="true" ref="index"/>
-    <file name="folio-img-12.jpg" crc="3779257780" seo="true" ref="index"/>
     <file name="arrow-blk-left.png" crc="170346569" seo="true" ref="index"/>
     <file name="arrow-blk-right.png" crc="460826222" seo="true" ref="index"/>
     <file name="top_scl_icn_fb.png" crc="4163445723" seo="true" ref="index"/>
     <file name="top_scl_icn_gp.png" crc="34897585" seo="true" ref="index"/>
     <file name="top_scl_icn_ln.png" crc="3826927679" seo="true" ref="index"/>
     <file name="top_scl_icn_tw.png" crc="3840287370" seo="true" ref="index"/>
-    <file name="folio01a-ieu34441-fr.png" crc="435387763" ref="index"/>
-    <file name="folio-img-01-crop-u33740.jpg" crc="4156301948" ref="index"/>
-    <file name="folio-img-02-crop-u33730.jpg" crc="3879848034" ref="index"/>
-    <file name="folio-img-04-crop-u33734.jpg" crc="4125386102" ref="index"/>
-    <file name="folio-img-05-crop-u33736.jpg" crc="3888136191" ref="index"/>
-    <file name="folio-img-06-crop-u33732.jpg" crc="3956629757" ref="index"/>
-    <file name="folio-img-07-crop-u33738.jpg" crc="4124180493" ref="index"/>
-    <file name="folio-img-10-crop-u33726.jpg" crc="4108903798" ref="index"/>
-    <file name="folio-img-12-crop-u33728.jpg" crc="3987728997" ref="index"/>
-    <file name="folio-img-12-crop-u33787.jpg" crc="3987728997" ref="index"/>
-    <file name="folio-img-11-crop-u33793.jpg" crc="3758178067" ref="index"/>
-    <file name="folio-img-08-crop-u33785.jpg" crc="4024600977" ref="index"/>
-    <file name="folio-img-07-crop-u33797.jpg" crc="4124180493" ref="index"/>
-    <file name="folio-img-06-crop-u33791.jpg" crc="3956629757" ref="index"/>
-    <file name="folio-img-05-crop-u33795.jpg" crc="3888136191" ref="index"/>
-    <file name="folio-img-02-crop-u33783.jpg" crc="3879848034" ref="index"/>
-    <file name="folio-img-01-crop-u33789.jpg" crc="4156301948" ref="index"/>
     <file name="fly.jpg" crc="3792417599" seo="true" ref="index"/>
     <file name="desc.jpg" crc="4078273796" seo="true" ref="index"/>
     <file name="city.jpg" crc="3982139506" seo="true" ref="index"/>
     <file name="sky.jpg" crc="493999657" seo="true" ref="index"/>
+    <file name="folio01a-ieu35344-fr.png" crc="511792504" ref="index"/>
+    <file name="technologies_list.png" crc="4486791" seo="true" ref="index"/>
+    <file name="caronfly_app-crop-u35030.png" crc="4097303706" ref="index"/>
+    <file name="burger-king_app-crop-u35057.png" crc="66192949" ref="index"/>
+    <file name="starbucks_app-crop-u35084.png" crc="3944237168" ref="index"/>
+    <file name="socar_app-crop-u35111.png" crc="324948060" ref="index"/>
+    <file name="allereifen_site-crop-u35138.png" crc="4150841384" ref="index"/>
+    <file name="ipland_site-crop-u35192.png" crc="355248976" ref="index"/>
+    <file name="topcompetence_site-crop-u35219.png" crc="146875183" ref="index"/>
+    <file name="plas-tek_site-crop-u35273.png" crc="4017484376" ref="index"/>
+    <file name="caronfly_app.png" crc="4056808740" seo="true" ref="index"/>
+    <file name="burger-king_app.png" crc="197441951" seo="true" ref="index"/>
+    <file name="starbucks_app.png" crc="3986924243" seo="true" ref="index"/>
+    <file name="socar_app.png" crc="56119273" seo="true" ref="index"/>
+    <file name="allereifen_site.png" crc="293643134" seo="true" ref="index"/>
+    <file name="ipland_site.png" crc="492846474" seo="true" ref="index"/>
+    <file name="topcompetence_site.png" crc="3959337365" seo="true" ref="index"/>
+    <file name="plas-tek_site.png" crc="421317370" seo="true" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -196,5 +187,5 @@
     </folder>
     <file name="index.html" crc="382140988" seo="true" mt="1461702074298" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3812015129" seo="true" mt="1463125035264" redirect="true"/>
+  <file name="index.html" crc="3834711317" seo="true" mt="1463170643805" redirect="true"/>
 </manifest>

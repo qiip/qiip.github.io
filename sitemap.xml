@@ -487,66 +487,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.domain.com/images/folio-img-01.jpg</loc>
-    <lastmod>2016-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/folio-img-02.jpg</loc>
-    <lastmod>2016-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/folio-img-04.jpg</loc>
-    <lastmod>2016-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/folio-img-05.jpg</loc>
-    <lastmod>2016-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/folio-img-06.jpg</loc>
-    <lastmod>2016-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/folio-img-07.jpg</loc>
-    <lastmod>2016-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/folio-img-08.jpg</loc>
-    <lastmod>2016-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/folio-img-10.jpg</loc>
-    <lastmod>2016-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/folio-img-11.jpg</loc>
-    <lastmod>2016-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.domain.com/images/folio-img-12.jpg</loc>
-    <lastmod>2016-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://www.domain.com/images/arrow-blk-left.png</loc>
     <lastmod>2016-05-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -602,6 +542,60 @@
   </url>
   <url>
     <loc>http://www.domain.com/images/sky.jpg</loc>
+    <lastmod>2016-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/technologies_list.png</loc>
+    <lastmod>2016-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/caronfly_app.png</loc>
+    <lastmod>2016-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/burger-king_app.png</loc>
+    <lastmod>2016-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/starbucks_app.png</loc>
+    <lastmod>2016-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/socar_app.png</loc>
+    <lastmod>2016-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/allereifen_site.png</loc>
+    <lastmod>2016-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/ipland_site.png</loc>
+    <lastmod>2016-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/topcompetence_site.png</loc>
+    <lastmod>2016-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.domain.com/images/plas-tek_site.png</loc>
     <lastmod>2016-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

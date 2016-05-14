@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1463171663810">
+<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1463222949861">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="4193860560" ref="index"/>
-    <file name="iefonts_index.css" crc="517070239" ref="index"/>
+    <file name="index.css" crc="3790594234" ref="index"/>
+    <file name="iefonts_index.css" crc="281257198" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="smoothscroll.js" crc="4246782887" seo="true" mt="1459147433000"/>
@@ -77,10 +77,10 @@
     <file name="folio04_thumb.jpg" crc="3990743922" ref="phone>index:tablet>index"/>
     <file name="folio05_thumb.jpg" crc="3904714183" ref="phone>index:tablet>index"/>
     <file name="folio06_thumb.jpg" crc="124187422" ref="phone>index:tablet>index"/>
-    <file name="team_img01.jpg" crc="3900763319" ref="phone>index:tablet>index:index"/>
-    <file name="team_img02.jpg" crc="4076620409" ref="phone>index:tablet>index:index"/>
-    <file name="team_img03.jpg" crc="282230381" ref="phone>index:tablet>index:index"/>
-    <file name="team_img04.jpg" crc="506960555" ref="phone>index:tablet>index:index"/>
+    <file name="team_img01.jpg" crc="3900763319" ref="phone>index:tablet>index"/>
+    <file name="team_img02.jpg" crc="4076620409" ref="phone>index:tablet>index"/>
+    <file name="team_img03.jpg" crc="282230381" ref="phone>index:tablet>index"/>
+    <file name="team_img04.jpg" crc="506960555" ref="phone>index:tablet>index"/>
     <file name="divider_bg.jpg" crc="450862287" ref="phone>index:tablet>index"/>
     <file name="u17842-17.png" crc="4056382499" ref="phone>index"/>
     <file name="u17842-17-r.png" crc="4162632031" ref="phone>index"/>
@@ -187,5 +187,5 @@
     </folder>
     <file name="index.html" crc="382140988" seo="true" mt="1461702074298" redirect="true"/>
   </folder>
-  <file name="index.html" crc="162124389" seo="true" mt="1463171616340" redirect="true"/>
+  <file name="index.html" crc="4183837817" seo="true" mt="1463222908849" redirect="true"/>
 </manifest>

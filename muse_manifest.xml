@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1463222949861">
+<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.domain.com" resolutions="1x" timestamp="1463483584499">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="3790594234" ref="index"/>
-    <file name="iefonts_index.css" crc="281257198" ref="index"/>
+    <file name="index.css" crc="261719589" ref="index"/>
+    <file name="iefonts_index.css" crc="21495650" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="smoothscroll.js" crc="4246782887" seo="true" mt="1459147433000"/>
@@ -156,14 +156,6 @@
     <file name="sky.jpg" crc="493999657" seo="true" ref="index"/>
     <file name="folio01a-ieu35344-fr.png" crc="511792504" ref="index"/>
     <file name="technologies_list.png" crc="4486791" seo="true" ref="index"/>
-    <file name="caronfly_app-crop-u35030.png" crc="4097303706" ref="index"/>
-    <file name="burger-king_app-crop-u35057.png" crc="66192949" ref="index"/>
-    <file name="starbucks_app-crop-u35084.png" crc="3944237168" ref="index"/>
-    <file name="socar_app-crop-u35111.png" crc="324948060" ref="index"/>
-    <file name="allereifen_site-crop-u35138.png" crc="4150841384" ref="index"/>
-    <file name="ipland_site-crop-u35192.png" crc="355248976" ref="index"/>
-    <file name="topcompetence_site-crop-u35219.png" crc="146875183" ref="index"/>
-    <file name="plas-tek_site-crop-u35273.png" crc="4017484376" ref="index"/>
     <file name="caronfly_app.png" crc="4056808740" seo="true" ref="index"/>
     <file name="burger-king_app.png" crc="197441951" seo="true" ref="index"/>
     <file name="starbucks_app.png" crc="3986924243" seo="true" ref="index"/>
@@ -172,6 +164,28 @@
     <file name="ipland_site.png" crc="492846474" seo="true" ref="index"/>
     <file name="topcompetence_site.png" crc="3959337365" seo="true" ref="index"/>
     <file name="plas-tek_site.png" crc="421317370" seo="true" ref="index"/>
+    <file name="2000px-under_armour_logo.png" crc="4226026181" seo="true" ref="index"/>
+    <file name="major_league_baseballsvg.png" crc="272194406" seo="true" ref="index"/>
+    <file name="at-t_large.png" crc="74797265" seo="true" ref="index"/>
+    <file name="myfitnesspal-logo-transparent_tcm256-11335.png" crc="4291126473" seo="true" ref="index"/>
+    <file name="athos-logo-300x250.png" crc="274293320" seo="true" ref="index"/>
+    <file name="smule-logo-eps-vector-image.png" crc="4183821775" seo="true" ref="index"/>
+    <file name="lending-club-logo-eps-vector-image.png" crc="52068837" seo="true" ref="index"/>
+    <file name="modius_log.png" crc="4092245517" seo="true" ref="index"/>
+    <file name="istudio_site.png" crc="4121458538" seo="true" ref="index"/>
+    <file name="rosneft_site.png" crc="3942273630" seo="true" ref="index"/>
+    <file name="arrow_prev.png" crc="3957946826" seo="true" ref="index"/>
+    <file name="arrow_next.png" crc="150900269" seo="true" ref="index"/>
+    <file name="athos.jpg" crc="89050191" seo="true" ref="index"/>
+    <file name="cog1.jpg" crc="3919954581" seo="true" ref="index"/>
+    <file name="direct_technology.jpg" crc="3900654488" seo="true" ref="index"/>
+    <file name="lending_club.jpg" crc="3770192773" seo="true" ref="index"/>
+    <file name="mlb.jpg" crc="424568796" seo="true" ref="index"/>
+    <file name="smule.jpg" crc="231106661" seo="true" ref="index"/>
+    <file name="under_armor.jpg" crc="4083049538" seo="true" ref="index"/>
+    <file name="on_demand_develoopment.jpg" crc="274007905" ref="index"/>
+    <file name="icn_magnify.png" crc="4262907911" seo="true" ref="index"/>
+    <file name="qa_services.jpg" crc="145582427" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -187,5 +201,5 @@
     </folder>
     <file name="index.html" crc="382140988" seo="true" mt="1461702074298" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4183837817" seo="true" mt="1463222908849" redirect="true"/>
+  <file name="index.html" crc="3849472336" seo="true" mt="1463483515017" redirect="true"/>
 </manifest>

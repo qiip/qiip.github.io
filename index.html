@@ -14,7 +14,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/typicons.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -26,7 +26,7 @@
 
   <body>
 
-    <header class="site-wrapper">
+    <header id="header" class="site-wrapper">
 
       <div class="site-wrapper-inner">
 
@@ -37,8 +37,8 @@
               <h3 class="masthead-brand">MWeb</h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#about">About</a></li>
+                  <li class="active"><a href="#header">Home</a></li>
+                  <li class="page-scroll"><a href="#about">About</a></li>
                   <li><a href="#advertis">Advertistisers</a></li>
                   <li><a href="#publish">Publishers</a></li>
                   <li><a href="#partn">Partners</a></li>
@@ -62,43 +62,44 @@
     </header>
 
     <section id="about"> 
+      <h2>ABOUT US</h2>
      <div class="container">
-        <h2>ABOUT US</h2>
-
-        <div class="col-md-6"> 
-          <p>mWeb aggregates video inventory across dozens of sites to provide best coverage and quality ad partners. Generate revenue from in-web video formats covering mobile traffic from all GEOs.</p>
+        <div class="col-md-5 tabl"> 
+          <div class="midl">
+            <p class="lead">mWeb aggregates video inventory across dozens of sites to provide best coverage and quality ad partners. Generate revenue from in-web video formats covering mobile traffic from all GEOs.</p>
+          </div>
         </div>
 
-        <div class="col-md-6"> 
-          <p>Image with phone and worldwide web or video player</p>
+        <div class="col-md-7"> 
+          <img src="img/services-mobile-marketing.png" width="500px">
         </div>
       </div>
     </section>
 
     <section id="publish"> 
-      <div class="container">
         <h2>PUBLISHERS</h2>
-        <p>As more and more advertisers are allocating budgets towards to mobile video advertising, website & application owners are starting to realize the potential of this rewarding monetization opportunity. We invite you to add engaging videos and hit high CPM rates through a range of premium brand safe campaigns from around the world. </p>
+        <div class="container">
+        <p class="lead">As more and more advertisers are allocating budgets towards to mobile video advertising, website & application owners are starting to realize the potential of this rewarding monetization opportunity. We invite you to add engaging videos and hit high CPM rates through a range of premium brand safe campaigns from around the world. </p>
       </div>
     </section>
 
     <section id="minvent"> 
-      <div class="container">
-        <h3>MOBILE INVENTORY</h3>
 
+        <h3>MOBILE INVENTORY</h3>
+      <div class="container">
         <div class="col-md-6"> 
-          <table>
+          <table width="100%">
             <tbody>
               <tr>
-                <td>Video Player Icon</td>
+                <td><i class="fa fa-play-circle" aria-hidden="true"></i></td>
                 <td>In-Stream Video</td>
               </tr>
               <tr>
-                <td>Interstitial advertising icon</td>
+                <td><i class="fa fa-building" aria-hidden="true"></i></td>
                 <td>Video Interstitial</td>
               </tr>
               <tr>
-                <td>In-Read Advertising icon</td>
+                <td><i class="fa fa-mobile" aria-hidden="true"></i></td>
                 <td>Video In-Read</td>
               </tr>
             </tbody>  
@@ -106,7 +107,7 @@
         </div>
 
         <div class="col-md-6"> 
-          <ul>
+          <ul class="text-left">
             <li>Competetive CPM Rates</li>
             <li>Cross-device solution</li>
             <li>Best Coverage</li>
@@ -121,30 +122,39 @@
     </section>
 
     <section id="advertis">
-      <div class="container">
         <h2>ADVERTISERS</h2>
-        
-        <p>We use innovative ad serving technologies and formats to help our clients achieve their marketing goalds in the most cost effective possible way.</p>
+      <div class="container">
+        <p class="lead">We use innovative ad serving technologies and formats to help our clients achieve their marketing goalds in the most cost effective possible way.</p>
       </div>
     </section>
 
     <section id="exreach"> 
-      <div class="container">
+      
         <h3>EXPAND YOUR REACH</h3>
-
+        <div class="container">
         <div class="row">
           <div class="col-md-4">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <h5>Worldwide Coverage<h5>
           </div>
           <div class="col-md-4">
+            <i class="fa fa-tablet" aria-hidden="true"></i>
+            <h5>Cross-Device audience</h5>
           </div>
           <div class="col-md-4">
+            <i class="fa fa-file-o" aria-hidden="true"></i>
+            <h5>Branding Ad Campaigns</h5>
           </div>
         </div>  
 
         <div class="row">
           <div class="col-md-6">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            <h5>Real-Time Reports</h5>
           </div>
           <div class="col-md-6">
+            <i class="fa fa-video-camera" aria-hidden="true"></i>
+            <h5>Different Ad Formats</h5>
           </div>
         </div> 
 
@@ -152,17 +162,17 @@
     </section>
 
     <section id="partn"> 
-
-      <div class="container">
-
       <h2>PARTNERS</h2>
-
+      <div class="container">
         <div class="row">
           <div class="col-md-4">
+            <img src="img/google.png">
           </div>
           <div class="col-md-4">
+            <img src="img/google.png">
           </div>
           <div class="col-md-4">
+            <img src="img/google.png">
           </div>
         </div>
 
@@ -170,14 +180,16 @@
     </section>
 
     <section id="testim"> 
-      <div class="container">
-
       <h2>TESTIMONIALS</h2>
-
+      <div class="container">
        <div class="row">
           <div class="col-md-6">
+            <img src="img/microsoft-logo.png">
+            <p>Lorem Ipsum</p>
           </div>
           <div class="col-md-6">
+            <img src="img/microsoft-logo.png">
+            <p>Lorem Ipsum</p>
           </div>
         <div>  
       </div>
@@ -185,24 +197,23 @@
     </section>
 
     <footer id="contact"> 
-      <div class="container">
-
       <h4>CONTACT US</h4>
-
+      <div class="container">
       <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 comp contabl">
+            <div class="midl">
             <h6>Company name</h6>
 
-            <a href="mailto:email@email.com"><span class="typcn typcn-mail"></span>email@email.com</a>
+            <a href="mailto:email@email.com"> <i class="fa fa-envelope-o" aria-hidden="true"></i> email@email.com</a>
               <br />
-            <a href="tel:+1 s855 111 2233"><span class="typcn typcn-phone-outline"></span>+1.855.111.2233</a>
+            <a href="tel:+1 s855 111 2233"> <i class="fa fa-phone" aria-hidden="true"></i> +1.855.111.2233</a>
 
-            <p>
-              <span class="typcn social-facebook-circular"></span>
-              <span class="typcn social-linkedin-circular"></span>
-              <span class="typcn social-google-plus-circular"></span>
+            <p class="social">
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              <i class="fa fa-google-plus-official" aria-hidden="true"></i>
             </p>
-
+          </div>
           </div>
 
           <div class="col-md-6 form">
@@ -237,8 +248,11 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script ype="text/javascript" src="js/classie.js"></script>
+    <script type="text/javascript" src="js/cbpAnimatedHeader.js"></script> 
+    <script ype="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script> 
+    
   </body>
 </html>

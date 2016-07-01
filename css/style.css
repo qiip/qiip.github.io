@@ -1,13 +1,4 @@
-@font-face {
-  font-family: 'typicons';
-  src: url("typicons.eot");
-  src: url("typicons.eot?#iefix") format('embedded-opentype'),
-       url("typicons.woff") format('woff'),
-       url("typicons.ttf") format('truetype'),
-       url("typicons.svg#typicons") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,latin-ext);
 /*
  * Globals
  */
@@ -43,14 +34,16 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
   width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
+  height: 60%; /* For at least Firefox */
+  min-height: 60%;
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
@@ -173,4 +166,51 @@ body {
   .cover-container {
     width: 900px;
   }
+}
+.tabl {
+  display: table;
+  min-height: 500px;
+} 
+.contabl {
+  display: table;
+  min-height: 280px;
+} 
+.midl {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#publish {
+  background: #ddd;
+}
+#publish p{
+  padding: 60px 0 20px;
+}
+#advertis {
+  background: #ddd;
+}
+#advertis p{
+  padding: 60px 0 20px;
+}
+.container{
+  padding: 20px 0;
+}
+section {
+  padding: 20px 0;
+}
+#exreach i {
+  font-size: 80px;
+}
+#minvent i {
+  font-size: 70px;
+}
+.social {
+  font-size: 35px;
+}
+.comp, .comp h6 {
+  font-size: 25px;
+}
+.masthead.navbar-shrink {
+  padding: 10px 0;
+  background-color: rgba(0,0,0,0.65);
 }

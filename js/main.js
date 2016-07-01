@@ -16,8 +16,6 @@
 			});
 	});
 
-
-
 // jQuery for page scrolling feature 
 	$(function() {
 		$(document).on("scroll", onScroll);

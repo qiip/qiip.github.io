@@ -25,7 +25,7 @@
 		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 		      if (target.length) {
 		        $('html,body').animate({
-		          scrollTop: target.offset().top - $('.navbar').height()
+		          scrollTop: target.offset().top - $('.masthead').height()
 		        }, 1000);
 		        return false;
 		      }
@@ -35,11 +35,11 @@
 
 function onScroll(event){
     var scrollPos = $(document).scrollTop();
-    $('.menu a').each(function () {
+    $('.nav a').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
-        if (refElement.position().top - $('.navbar').height() <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('.menu ul a').removeClass("active");
+        if (refElement.position().top - $('.masthead').height() <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('.nav ul a').removeClass("active");
             currLink.addClass("active");
         }
         else{

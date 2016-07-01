@@ -214,3 +214,12 @@ section {
   padding: 10px 0;
   background-color: rgba(0,0,0,0.65);
 }
+.backblue {
+  background-color: #264653;
+}
+.backgreen {
+  background-color: #2A9D8F; 
+}
+h4 {
+  font-size: 30px;
+}

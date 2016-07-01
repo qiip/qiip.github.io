@@ -28,7 +28,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #fff;
+  background-color: #E8F1F2;
 }
 body {
   color: #fff;
@@ -65,6 +65,9 @@ body {
 /*
  * Header
  */
+ header {
+    background: url('../img/Banner.png') no-repeat bottom center;
+ }
 .masthead {
   z-index: 99999;
 }
@@ -206,16 +209,41 @@ section {
   background-color: rgba(0,0,0,0.8);
 }
 .backblue {
-  background-color: #264653;
+  background-color: #13293D;
 }
 .backgreen {
-  background-color: #2A9D8F; 
+  background-color: #1B98E0; 
 }
 h4 {
-  font-size: 30px;
+  font-size: 35px;
+  margin: 0;
+  padding: 50px 0 30px;
+}
+h5 {
+    font-size: 25px;
 }
 .mnav {
   width: 100%;
   margin: 0 auto;
   padding: 0 15%;
+}
+hr {
+  width: 35%;
+}
+.row {
+  padding: 80px;
+}
+.isvg {
+  width: 150px;
+  background: #13293D;
+  padding: 15px;
+  border-radius: 20%;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.dsvg {
+  width: 150px;
+  background: #1B98E0;
+  padding: 15px;
+  border-radius: 20%;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }

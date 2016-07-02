@@ -246,26 +246,19 @@ hr {
 .paddx2 {
   padding: 80px;
 }
-.isvg {
+.dsvg {
   width: 150px;
   background: #13293D;
   padding: 15px;
   border-radius: 20%;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-}
-.dsvg {
-  width: 150px;
-  background: #1B98E0;
-  padding: 15px;
-  border-radius: 20%;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.6),0 2px 10px 0 rgba(0,0,0,0.6);
 }
 .ssvg {
   width: 80px;
   background: #1B98E0;
   padding: 15px;
   border-radius: 20%;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.7),0 2px 10px 0 rgba(0,0,0,0.7);
 }
 .btext {
   font-size: 25px;

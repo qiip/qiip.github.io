@@ -58,7 +58,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 10px;
   -webkit-transition: padding .3s;
   -moz-transition: padding .3s;
   transition: padding .3s;
@@ -69,17 +69,31 @@ body {
  * Header
  */
  header {
-    background: url('../img/pexels-photo.jpg') no-repeat center;
-    background-size: cover;
+  background: url('../img/pexels-photo.jpg') no-repeat left fixed;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
  }
 .masthead {
   z-index: 99999;
+}
+.masthead .container {
+  padding: 0;
 }
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
+.navbar-toggle {
+  border: 1px solid #fff;
+}
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-brand {
+  padding: 25px;
+  font-size: 26px;
+}
 .masthead-nav > li {
   display: inline-block;
 }
@@ -115,18 +129,33 @@ body {
   .masthead-nav {
     float: right;
   }
+  .masthead-nav > li {
+  display: block;
+  }
+}
+@media (max-width: 768px) {
+  .masthead-nav > li {
+  display: block;
+  }
+  .inner {
+    padding: 0;
+  }
+  .navbar-brand {
+    padding: 15px 0 0;
+  }
 }
 /*
  * Cover
  */
 
 .cover {
-  text-align: left;
   background-color: rgba(19,41,61,0.7);
   padding: 40px;
-  width: 70%;
+  width: 40%;
   border-radius: 5px;
 }
+.cover h1 {
+  text-align: left;
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -216,7 +245,10 @@ section {
   background-color: rgba(19,41,61,.9);
 }
 .navbar-shrink {
-  padding: 10px;
+  padding: 0;
+}
+.navbar-brand-shrink {
+  padding: 15px;
 }
 .backblue {
   background-color: #13293D;

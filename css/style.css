@@ -84,6 +84,11 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.navbar-brand>img {
+  display: inline-block;
+  vertical-align: baseline;
+  height: 30px;
+}
 .navbar-toggle {
   border: 1px solid #fff;
 }
@@ -92,7 +97,7 @@ body {
 }
 .navbar-brand {
   padding: 25px;
-  font-size: 26px;
+  font-size: 40px;
 }
 .masthead-nav > li {
   display: inline-block;
@@ -133,7 +138,31 @@ body {
   display: block;
   }
 }
-@media (max-width: 768px) {
+
+@media screen and (max-width: 2000px) {
+  .cover {
+    width: 40%;
+  }
+  .rb {
+    padding-right: 70px;
+    text-align: right;
+  }
+  .rb img {
+    margin-right: 30px;
+  }
+  .lb {
+    padding-left: 70px;
+    text-align: left;
+  }
+  .lb img {
+    margin-left: 40px;
+  }
+    .paddx2 {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .masthead-nav > li {
   display: block;
   }
@@ -143,7 +172,48 @@ body {
   .navbar-brand {
     padding: 15px 0 0;
   }
+  .cover {
+    width: 60%;
+  }
+  .masthead-nav > li + li {
+    margin-left: 0px;
+  }
+  .rb {
+    padding-right: 0;
+    text-align: center;
+  }
+  .rb img {
+    margin-right: 0;
+  }
+  .lb {
+    padding-left: 0;
+    text-align: center;
+  }
+  .lb img {
+    margin-left: 0;
+  }
+    .paddx2 {
+    padding: 50px;
+  }
 }
+@media screen and (max-width: 500px) {
+  .masthead-nav > li {
+  display: block;
+  }
+  .inner {
+    padding: 0;
+  }
+  .navbar-brand {
+    padding: 15px 0 0;
+  }
+  .cover {
+    width: 100%;
+  }
+    .paddx2 {
+    padding: 30px;
+  }
+}
+
 /*
  * Cover
  */
@@ -151,7 +221,6 @@ body {
 .cover {
   background-color: rgba(19,41,61,0.7);
   padding: 40px;
-  width: 40%;
   border-radius: 5px;
 }
 .cover h1 {
@@ -275,9 +344,6 @@ hr {
 .padd {
   padding: 40px;
 }
-.paddx2 {
-  padding: 80px;
-}
 .dsvg {
   width: 150px;
   background: #13293D;
@@ -309,18 +375,7 @@ hr {
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   font-size: 20px;
 }
-.rb {
-  padding-right: 70px;
-}
-.rb img {
-  margin-right: 30px;
-}
-.lb {
-  padding-left: 70px;
-}
-.lb img {
-  margin-left: 40px;
-}
+
 .tdark {
   color:#13293D;
 } 
@@ -330,4 +385,8 @@ small {
   text-align: center;
   padding: 20px 0;
   background-color: #fff;
+}
+.phimg {
+  width: 100%;
+  max-width: 500px;
 }

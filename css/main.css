@@ -3,3 +3,7 @@
 html {
 	font-family: 'Baloo Bhaina', sans-serif;
 }
+
+.zombie {
+	background: url('../img/coffee_zombie.png') no-repeat left;
+}

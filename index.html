@@ -13,12 +13,11 @@
 
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
   <script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				anchors: ['aboutPage', 'listPage', 'whyPage', 'whenPage'],
-				sectionsColor: ['#EE7D1F', '#E9C867', '#35A4AB', '#839788'],
+				sectionsColor: ['#EE7D1F', '#FCCA46', '#0CCE6B', '#99b8c1'],
 				navigation: true,
 				navigationPosition: 'right',
 				navigationTooltips: ['About', 'List of exercises', 'Why you need this?', 'Where and When']
@@ -50,13 +49,12 @@
 			<div class="container">
 				<h1>Stretching</h1>
 				<div class="col s6">
-				 <img src="img/c.png">
+				 <img class="materialboxed" data-caption="Five minute and five type of plank" width="450" src="img/scretching.png">
 				</div>
 				<div class="col s6">
-					<h3> &larr; Tired to be like a guy on this image?</h3>
-					<p> If your answear is yes, we glad to indroduce you new program for our emploees - Morning exercises in our cozy office!<br />
-					Morning exercises will begin at 8:20 am every Monday, Wednesday and Friday.<br />
-					Morning exercises will help to get up erlier and be more energatic at the morning.
+					<h3> &larr; How your exercise will help me to wake up?</h3>
+					<p>Believe me, if you will do all exercise from this list you not only wake up,<br />
+					   but you also will lost a few pounds.
 					</p>
 				</div>
 			</div>
@@ -65,13 +63,12 @@
 			<div class="container">
 				<h1>Plank hold</h1>
 				<div class="col s6">
-				 <img src="img/c.png">
+				 <img class="materialboxed" data-caption="Five minute and five type of plank" width="450" src="img/planka.jpg">
 				</div>
 				<div class="col s6">
-					<h3> &larr; Tired to be like a guy on this image?</h3>
-					<p> If your answear is yes, we glad to indroduce you new program for our emploees - Morning exercises in our cozy office!<br />
-					Morning exercises will begin at 8:20 am every Monday, Wednesday and Friday.<br />
-					Morning exercises will help to get up erlier and be more energatic at the morning.
+					<h3> &larr; How can I become stronger?</h3>
+					<p>This is not a powerlifting exrcises but it also help to become stronger.<br />
+                      This exercise is very simple for the firs side, but if will try it, you won't be so sure.
 					</p>
 				</div>
 			</div>
@@ -80,13 +77,13 @@
 			<div class="container">
 				<h1>Five tibet exercises</h1>
 				<div class="col s6">
-				 <img src="img/c.png">
+				 <img class="materialboxed" data-caption="Five minute and five type of plank" width="450" src="img/5tibet.jpg">
 				</div>
 				<div class="col s6">
-					<h3> &larr; Tired to be like a guy on this image?</h3>
-					<p> If your answear is yes, we glad to indroduce you new program for our emploees - Morning exercises in our cozy office!<br />
-					Morning exercises will begin at 8:20 am every Monday, Wednesday and Friday.<br />
-					Morning exercises will help to get up erlier and be more energatic at the morning.
+					<h3> &larr; Цill еhis exercise  help my back?</h3>
+					<p>Yes, this exercises will you to feel more comfortable sitting all day on chair.<br /> 
+					   You will feel results after first week of exercises!<br /> 
+					   This exercise not only helpfull for your back, but also help you to relax and concetrate.
 					</p>
 				</div>
 			</div>
@@ -100,19 +97,28 @@
 				 <img src="img/sun.png">
 				</div>
 				<div class="col s6">
-					<h3> &larr; Tired to be like a guy on this image?</h3>
-					<p> If your answear is yes, we glad to indroduce you new program for our emploees - Morning exercises in our cozy office!<br />
-					Morning exercises will begin at 8:20 am every Monday, Wednesday and Friday.<br />
-					Morning exercises will help to get up erlier and be more energatic at the morning.
+					<h3>Be healthy it mean to be more productive!</h3>
+					<p>If want to make more to open for new new horisont, you need more power, but where you can get this?<br />
+					   Yes, you are right, form morning exercise it is the first step for new more healthy life.<br />
+					   And that is not over....maybe we will go further and also work on our ration.
+					   To be continued.....	
 					</p>
 				</div>
 		</div>
 	</section>
 	<section class="section row" id="section3">
-		<div class="container">
+		<div class="container center">
 			<h1>Where and When</h1>
+			<iframe src="https://docs.google.com/a/mlsdev.com/forms/d/e/1FAIpQLScUe_G3tFV4nI7PkZqfLvguYrhCfCBEVOV6FCUmDZgqlIyxfA/viewform?embedded=true" width="800" height="730" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 		</div>
 	</section>
 </div>
+
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+  </script>
 </body>
 </html>

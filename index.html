@@ -1,11 +1,118 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Hello World!</title>
-  </head>
-    <body>
-      <h1>Hello World!</h1>
-    </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MLSDev morning exercises</title>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--CSS files-->
+  <link rel="stylesheet" type="text/css" href="css/materialize.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['aboutPage', 'listPage', 'whyPage', 'whenPage'],
+				sectionsColor: ['#EE7D1F', '#E9C867', '#35A4AB', '#839788'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['About', 'List of exercises', 'Why you need this?', 'Where and When']
+			});
+		});
+	</script>
+</head>
+<body>
+
+
+<div id="fullpage">
+	<section class="section row" id="section0">
+		<div class="container">
+			<h1>Morning exxercises in the office</h1>
+			<div class="col s7">
+			<img src="img/coffee_zombie.png">
+			</div>
+			<div class="col s5">
+				<h3> &larr; Tired to be like a guy on this image?</h3>
+				<p> If your answear is yes, we glad to indroduce you new program for our emploees - Morning exercises in our cozy office!<br />
+				Morning exercises will begin at 8:20 am every Monday, Wednesday and Friday.<br />
+				Morning exercises will help to get up erlier and be more energatic at the morning.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class="section row" id="section1">
+	    <div class="slide" id="slide1">
+			<div class="container">
+				<h1>Stretching</h1>
+				<div class="col s6">
+				 <img src="img/c.png">
+				</div>
+				<div class="col s6">
+					<h3> &larr; Tired to be like a guy on this image?</h3>
+					<p> If your answear is yes, we glad to indroduce you new program for our emploees - Morning exercises in our cozy office!<br />
+					Morning exercises will begin at 8:20 am every Monday, Wednesday and Friday.<br />
+					Morning exercises will help to get up erlier and be more energatic at the morning.
+					</p>
+				</div>
+			</div>
+		</div>
+	    <div class="slide" id="slide2">
+			<div class="container">
+				<h1>Plank hold</h1>
+				<div class="col s6">
+				 <img src="img/c.png">
+				</div>
+				<div class="col s6">
+					<h3> &larr; Tired to be like a guy on this image?</h3>
+					<p> If your answear is yes, we glad to indroduce you new program for our emploees - Morning exercises in our cozy office!<br />
+					Morning exercises will begin at 8:20 am every Monday, Wednesday and Friday.<br />
+					Morning exercises will help to get up erlier and be more energatic at the morning.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="slide" id="slide3">
+			<div class="container">
+				<h1>Five tibet exercises</h1>
+				<div class="col s6">
+				 <img src="img/c.png">
+				</div>
+				<div class="col s6">
+					<h3> &larr; Tired to be like a guy on this image?</h3>
+					<p> If your answear is yes, we glad to indroduce you new program for our emploees - Morning exercises in our cozy office!<br />
+					Morning exercises will begin at 8:20 am every Monday, Wednesday and Friday.<br />
+					Morning exercises will help to get up erlier and be more energatic at the morning.
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<section class="section row" id="section2">
+		<div class="container">
+			<h1>Again, why you need this?</h1>
+			<div class="col s6">
+				 <img src="img/sun.png">
+				</div>
+				<div class="col s6">
+					<h3> &larr; Tired to be like a guy on this image?</h3>
+					<p> If your answear is yes, we glad to indroduce you new program for our emploees - Morning exercises in our cozy office!<br />
+					Morning exercises will begin at 8:20 am every Monday, Wednesday and Friday.<br />
+					Morning exercises will help to get up erlier and be more energatic at the morning.
+					</p>
+				</div>
+		</div>
+	</section>
+	<section class="section row" id="section3">
+		<div class="container">
+			<h1>Where and When</h1>
+		</div>
+	</section>
+</div>
+</body>
 </html>

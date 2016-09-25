@@ -3,11 +3,19 @@
 html {
 	font-family: 'Baloo Bhaina', sans-serif;
 }
-
-.zombie {
-	background: url('../img/coffee_zombie.png') no-repeat left;
+h1 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 1.3em;
 }
 
+.fullw {
+  width: 100%;
+}
+.flr {
+	float: right;
+}
 .row {
   margin-left: auto;
   margin-right: auto;

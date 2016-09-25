@@ -4,11 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>MLSDev morning exercises</title>
+
   <!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--CSS files-->
-  <link rel="stylesheet" type="text/css" href="css/materialize.min.css"/>
   <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/magnific-popup.css"/>
   <link rel="stylesheet" type="text/css" href="css/main.css"/>
 
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
@@ -49,7 +50,9 @@
 			<div class="container">
 				<h1>Stretching</h1>
 				<div class="col s6">
-				 <img class="materialboxed" data-caption="Five minute and five type of plank" width="450" src="img/scretching.png">
+					<a class="image-popup-fit-width" href="img/scretching.jpg" title="This is our scretching program">
+			         <img src="img/scretching.jpg" width="350" height="539">
+			        </a>
 				</div>
 				<div class="col s6">
 					<h3> &larr; How your exercise will help me to wake up?</h3>
@@ -63,7 +66,9 @@
 			<div class="container">
 				<h1>Plank hold</h1>
 				<div class="col s6">
-				 <img class="materialboxed" data-caption="Five minute and five type of plank" width="450" src="img/planka.jpg">
+				   <a class="image-popup-fit-width" href="img/planka.jpg" title="This is our strength program">
+			         <img src="img/planka.jpg" width="350" height="539">
+			       </a>
 				</div>
 				<div class="col s6">
 					<h3> &larr; How can I become stronger?</h3>
@@ -77,7 +82,9 @@
 			<div class="container">
 				<h1>Five tibet exercises</h1>
 				<div class="col s6">
-				 <img class="materialboxed" data-caption="Five minute and five type of plank" width="450" src="img/5tibet.jpg">
+				   <a class="image-popup-fit-width" href="img/5tibet.jpg" title="This our mind cleaning program">
+			         <img src="img/5tibet.jpg" width="350" height="539">
+			       </a>
 				</div>
 				<div class="col s6">
 					<h3> &larr; Цill еhis exercise  help my back?</h3>
@@ -113,12 +120,44 @@
 		</div>
 	</section>
 </div>
+  <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+   <script type="text/javascript">
+      $(document).ready(function() {
 
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-    $('.materialboxed').materialbox();
-  });
-  </script>
+        $('.image-popup-vertical-fit').magnificPopup({
+          type: 'image',
+          closeOnContentClick: true,
+          mainClass: 'mfp-img-mobile',
+          image: {
+            verticalFit: true
+          }
+          
+        });
+
+        $('.image-popup-fit-width').magnificPopup({
+          type: 'image',
+          closeOnContentClick: true,
+          image: {
+            verticalFit: false
+          }
+        });
+
+        $('.image-popup-no-margins').magnificPopup({
+          type: 'image',
+          closeOnContentClick: true,
+          closeBtnInside: false,
+          fixedContentPos: true,
+          mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+          image: {
+            verticalFit: true
+          },
+          zoom: {
+            enabled: true,
+            duration: 300 // don't foget to change the duration also in CSS
+          }
+        });
+
+      });
+    </script>
 </body>
 </html>
